@@ -1,0 +1,83 @@
+{
+  "manifest_schema": "dmot-research-f-drive-archive-v1",
+  "generated_utc": "2026-11-05T15:15:00Z",
+  "archive_target_root": "F:\\ExpData\\dmot-research",
+  "wsl_mount_path": "/mnt/f/ExpData/dmot-research",
+  "mount_verification": {
+    "status": "COMPLETED_AND_VERIFIED",
+    "filesystem_type": "9p/drvfs (NTFS on Windows Host)",
+    "free_space_bytes": 308700000000,
+    "symlinks_in_archive": 0
+  },
+  "training_results_manifest": {
+    "ic": {
+      "regime": "Independent Calibration (CMA-ES)",
+      "scope": "36 models x 531 basins",
+      "source_path": "/home/jingxin/code/dmg-research/releases/benchmark/training_results/ic",
+      "archive_path": "F:\\ExpData\\dmot-research\\results\\ic",
+      "checkpoints_count": 80,
+      "metrics_tables_count": 46,
+      "total_files": 130,
+      "total_bytes": 425937276,
+      "release_archive": "F:\\ExpData\\dmot-research\\results\\ic\\ic-results.zip",
+      "release_archive_bytes": 169500940,
+      "release_archive_sha256": "5f64b889a7164b3efee8d8e5e89ec23a85496677f5a04df86576ad062635955a"
+    },
+    "dpl": {
+      "regime": "Differentiable Parameter Learning (Canonical v2)",
+      "scope": "36 models x 531 basins (seen)",
+      "source_path": "/home/jingxin/code/dmg-research/releases/benchmark/training_results/dpl",
+      "archive_path": "F:\\ExpData\\dmot-research\\results\\dpl",
+      "checkpoints_count": 288,
+      "metrics_tables_count": 9,
+      "total_files": 298,
+      "total_bytes": 133441787,
+      "release_archive": "F:\\ExpData\\dmot-research\\results\\dpl\\dpl-results.zip",
+      "release_archive_bytes": 65029706,
+      "release_archive_sha256": "fc189252c16135dd1180cf2e21245eefb925b6a7071f49610f4ea9df29c7827d"
+    },
+    "oob": {
+      "regime": "Out-of-Basin Spatial Cross-Validation (5-fold)",
+      "scope": "30 baseline models + 6 repaired models x 531 basins",
+      "archive_path": "F:\\ExpData\\dmot-research\\results\\oob",
+      "master_evaluation_table": "seen_ic_oob36_v1_repaired.csv",
+      "master_table_rows": 19116,
+      "repair_runs_directory": "F:\\ExpData\\dmot-research\\results\\oob\\repair_runs",
+      "repair_checkpoints_count": 30,
+      "repair_checkpoints_verification": "30/30 match RUN_LOG_OOB_SIX_V1_REPAIR.csv (0 mismatches)",
+      "shipped_checkpoints_archive": "F:\\ExpData\\dmot-research\\results\\oob\\oob_dpl_ckpt.rar",
+      "shipped_checkpoints_bytes": 320021146,
+      "total_files": 590,
+      "total_bytes": 433398466
+    }
+  },
+  "release_manifest": {
+    "benchmarkpub": {
+      "version": "1.0.0",
+      "archive_path": "F:\\ExpData\\dmot-research\\release\\benchmarkpub",
+      "total_files": 845,
+      "total_bytes": 1744111751,
+      "zip_archive": "F:\\ExpData\\dmot-research\\release\\benchmarkpub\\benchmarkpub.zip",
+      "zip_bytes": 422499326,
+      "zip_sha256": "5e631a506c7f4904e725cd1f9235b57111c3b3bc55202e35bbcd4f6e6ff6681b",
+      "manifest_sha256_pass": 620,
+      "manifest_sha256_repaired_archive_match": 2
+    },
+    "benchmarkparam": {
+      "version": "2026-09-18",
+      "archive_path": "F:\\ExpData\\dmot-research\\release\\benchmarkparam",
+      "total_files": 439,
+      "total_bytes": 797156739,
+      "training_results_zip": "F:\\ExpData\\dmot-research\\release\\benchmarkparam\\training_results.zip",
+      "training_results_zip_bytes": 234590278,
+      "benchmark_code_zip": "F:\\ExpData\\dmot-research\\release\\benchmarkparam\\benchmark_code.zip",
+      "benchmark_code_zip_bytes": 1175743
+    }
+  },
+  "summary": {
+    "total_archived_files": 2303,
+    "total_archived_bytes": 3534046019,
+    "total_archived_gb": 3.29,
+    "symlinks_count": 0
+  }
+}

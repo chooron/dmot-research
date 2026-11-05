@@ -51,3 +51,15 @@ When joined by `(model, gauge_id)`, the values in `results/oob/kge_oob_dpl_531x3
 - **Large Raw Simulation Data (Linked Read-Only)**:
   - `benchmarkpub/data/oob36_20260930`: 2.07 GB raw OOB daily simulated streamflow (`qsim/`) and observations (`obs/`).
   - `benchmarkpub/data/oob_six_models_v1_repair_20261028`: 30 fold checkpoint files (`runs/`) for the 6 repaired models.
+
+---
+
+## 4. Formal Windows F: Drive Archive
+- **Physical Archive Location**: `F:\ExpData\dmot-research` (`/mnt/f/ExpData/dmot-research` in WSL).
+- **Archive Manifest**: `results/F_DRIVE_ARCHIVE_MANIFEST.json` and `F:\ExpData\dmot-research\manifest\ARCHIVE_MANIFEST.json`.
+- **Verified Contents**: 2,303 files (3.53 GB total, 0 symlinks).
+  - `results/ic/`: 130 files (425.9 MB)
+  - `results/dpl/`: 298 files (133.4 MB)
+  - `results/oob/`: 590 files (433.4 MB)
+  - `release/benchmarkpub/`: 845 files (1.74 GB)
+  - `release/benchmarkparam/`: 439 files (797.2 MB)

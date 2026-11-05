@@ -34,4 +34,4 @@ This document registers the verified release packages for the dMoT research ecos
 
 - **Lightweight Release Metadata & Tables**: Directly tracked in Git under `releases/` and `results/`.
 - **Large Standalone Release Archives**:
-  - Maintained in `dmg-research/releases/` and staged for cold storage replication to external storage via `results/G_DRIVE_ARCHIVE_MANIFEST.json`.
+  - Maintained in `dmg-research/releases/` and staged for cold storage replication to external storage via `results/F_DRIVE_ARCHIVE_MANIFEST.json`.
