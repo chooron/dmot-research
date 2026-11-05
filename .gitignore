@@ -27,6 +27,8 @@ ENV/
 
 # Testing & coverage
 .pytest_cache/
+.mypy_cache/
+.ruff_cache/
 .tox/
 .nox/
 .coverage
@@ -62,5 +64,8 @@ tmp/
 
 # Local convenience symlinks and external data mounts
 /data
+# Local OOB datasets; keep copied raw data out of version control
+/benchmarkpub/data/oob36_20260930/
+/benchmarkpub/data/oob_six_models_v1_repair_20261028/
 /benchmark
 /project

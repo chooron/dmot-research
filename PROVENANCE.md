@@ -98,20 +98,13 @@ This document records the provenance, migration mapping, exclusion rationale, da
 
 ## 3. Data Dependencies & Symbolic Links
 
-To conserve storage and prevent accidental modification of source datasets, large or canonical external data files are linked via symbolic links from `/home/jingxin/code/dmg-research/`:
+The seven entries under `data/` and two OOB bundles under `benchmarkpub/data/` are now local, Git-ignored copies of canonical sources from `/home/jingxin/code/dmg-research/`; the external originals remain unchanged:
+- `data/531sub_id.txt`, `data/gage_id.npy`, `data/camels_dataset`, `data/caravan_671_attributes.npy`, `data/caravan_671_attributes.csv`, `data/basin_groups/`, `data/gauge_cluster.csv`, `benchmarkpub/data/oob36_20260930/`, and `benchmarkpub/data/oob_six_models_v1_repair_20261028/`.
 
+The following external asset remains a symbolic link:
 | Symbolic Link Path | Target Source Path | Description | Size |
 |---|---|---|---|
-| `data/531sub_id.txt` | `dmg-research/data/531sub_id.txt` | 531 CAMELS basin ID inventory | 4.8 KB |
-| `data/gage_id.npy` | `dmg-research/data/gage_id.npy` | Reference gauge IDs array | 5.5 KB |
-| `data/camels_dataset` | `dmg-research/data/camels_dataset` | CAMELS daily forcing and flow pickle | 266.8 MB |
-| `data/caravan_671_attributes.npy` | `dmg-research/data/caravan_671_attributes.npy` | Caravan 35 physical attributes array | 188.0 KB |
-| `data/caravan_671_attributes.csv` | `dmg-research/data/caravan_671_attributes.csv` | Caravan catchment attributes CSV | 180.2 KB |
-| `data/basin_groups/` | `dmg-research/data/basin_groups/` | 17 hydro-climatic region partition arrays | 12.9 KB |
-| `data/gauge_cluster.csv` | `dmg-research/data/gauge_cluster.csv` | Gauge cluster classifications | 39.6 KB |
-| `benchmarkpub/data/oob36_20260930` | `dmg-research/project/benchmarkpub/data/oob36_20260930` | Out-of-basin Qsim and obs data | 2.07 GB |
 | `benchmarkpub/manuscript/cache/assets` | `dmg-research/project/benchmarkpub/manuscript/cache/assets` | Cartographic basemaps, relief, and fonts | 2.4 MB |
-| `benchmarkpub/manuscript/tables/figures/gauge_coordinates_531.csv` | `dmg-research/project/benchmarkpub/manuscript/tables/figures/gauge_coordinates_531.csv` | 531 basin coordinates for map plotting | 15.1 KB |
 
 ---
 
