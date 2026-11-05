@@ -1,0 +1,7 @@
+condition,target,target_pct,need_basins,k_opt,n_optimal_solutions,is_truncated,max_solutions_cap,core_set_size,core_set_models,union_set_size,union_set_models
+IC,0.950000,95%,505,4,3,False,1000,3,gr4j|hbv96|mopex5,6,alpine2|flexi|flexis|gr4j|hbv96|mopex5
+IC,1.000000,100%,531,9,4,False,1000,7,flexis|gr4j|hbv96|hillslope|modhydrolog|mopex5|tcm,11,alpine1|alpine2|australia|flexis|gr4j|hbv96|hillslope|modhydrolog|mopex5|tcm|us1
+seen-dPL,0.950000,95%,505,6,33,False,1000,3,hbv96|mopex5|xinanjiang,18,alpine1|alpine2|australia|flexis|gr4j|gsfb|hbv96|hillslope|hymod|ihacres|mopex3|mopex4|mopex5|plateau|simhyd|smar|us1|xinanjiang
+seen-dPL,1.000000,100%,531,14,18,False,1000,10,alpine1|alpine2|australia|flexis|gr4j|hbv96|modhydrolog|mopex5|plateau|xinanjiang,23,alpine1|alpine2|australia|flexb|flexis|gr4j|gsfb|hbv96|hillslope|hymod|modhydrolog|mopex1|mopex3|mopex4|mopex5|plateau|simhyd|smar|tank|tcm|topmodel|us1|xinanjiang
+OOB-dPL,0.950000,95%,505,11,32,False,1000,7,flexis|hbv96|mopex5|plateau|simhyd|susannah1|topmodel,28,alpine1|alpine2|australia|collie2|collie3|flexb|flexis|gr4j|gsfb|hbv96|hillslope|hymod|ihacres|modhydrolog|mopex3|mopex4|mopex5|newzealand1|penman|plateau|simhyd|susannah1|susannah2|tank|tcm|topmodel|us1|xinanjiang
+OOB-dPL,1.000000,100%,531,19,4,False,1000,17,flexis|gr4j|gsfb|hbv96|hymod|ihacres|mopex3|mopex4|mopex5|plateau|simhyd|susannah1|tank|tcm|topmodel|us1|xinanjiang,21,alpine1|alpine2|collie2|collie3|flexis|gr4j|gsfb|hbv96|hymod|ihacres|mopex3|mopex4|mopex5|plateau|simhyd|susannah1|tank|tcm|topmodel|us1|xinanjiang

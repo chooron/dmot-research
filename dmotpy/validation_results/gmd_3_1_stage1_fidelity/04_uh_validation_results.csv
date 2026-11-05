@@ -1,0 +1,9 @@
+uh_kind,marrMot_name,param_cases,kernel_pass,routing_pass,mass_pass,worst_kernel_diff,worst_routing_diff,worst_mass_err,known_issue,notes
+half1,Triangular half (uh_1_half),5,True,True,True,0.000e+00,0.000e+00,1.776e-15,none,
+full2,Triangular full (uh_2_full),5,True,True,True,0.000e+00,2.220e-16,3.553e-15,none,
+tri3,Triangular half (uh_3_half),5,True,True,True,2.220e-16,2.220e-15,7.105e-15,none,
+tri4,Triangular full (uh_4_full),5,True,True,True,0.000e+00,0.000e+00,1.776e-15,none,
+exp5,Exponential (uh_5_half),5,True,True,True,9.119e-04,9.112e-03,4.032e-02,exp5 tail,"known: exponential tail truncation (max kernel diff 9.1e-04, routing diff 9.1e-03)"
+gamma6,Gamma (uh_6_gamma),4,True,True,True,1.998e-15,1.998e-14,9.859e-14,none,
+uniform7,Uniform (uh_7_uniform),5,True,True,True,6.939e-17,6.661e-16,3.553e-15,none,
+delay8,Delay (uh_8_delay),5,True,True,True,5.551e-17,4.441e-16,3.553e-15,none,

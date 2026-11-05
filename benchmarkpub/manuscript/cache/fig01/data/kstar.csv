@@ -1,0 +1,7 @@
+condition,level,K_star,boot_median,boot_lo,boot_hi
+IC,95,4,4,3,4
+IC,100,9,9,7,9
+seen,95,6,5,4,6
+seen,100,14,12,10,14
+OOB,95,12,11,9,12
+OOB,100,21,19,17,21

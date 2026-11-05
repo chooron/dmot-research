@@ -1,0 +1,7 @@
+instability_metric,column,pooled_spearman_rho,pooled_spearman_p_permutation,pooled_n,pooled_pearson_r,within_model_spearman_median,within_model_spearman_frac_negative,within_model_spearman_frac_p_lt_005,within_models_used,model_median_spearman_rho,model_median_spearman_p_permutation,model_median_n
+param_displacement_seen_mean_rms,disp_rms_mean_seen,0.261239,0.000100,19116,0.225077,0.284841,0.000000,1.000000,36,0.345946,0.039196,36
+param_displacement_seen_euclid,disp_euclid_mean_seen,0.246241,0.000100,19116,0.221705,0.284841,0.000000,1.000000,36,0.431403,0.009299,36
+param_displacement_seen_median_rms,disp_rms_median_seen,0.267103,0.000100,19116,0.214845,0.295277,0.000000,1.000000,36,0.388674,0.019298,36
+param_fold_variability_pairwise_rms,fold_pairwise_rms_mean_param,0.064612,0.000100,19116,0.040056,0.064201,0.194444,0.416667,36,0.394337,0.016998,36
+param_fold_variability_sd,fold_sd_mean_param,0.067056,0.000100,19116,0.037331,0.075215,0.166667,0.500000,36,0.402059,0.013599,36
+param_boundary_proximity_seen,frac_seen_near_bound,-0.041865,0.000100,19116,-0.021211,-0.017901,0.611111,0.305556,36,-0.180363,0.294771,36

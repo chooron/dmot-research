@@ -1,0 +1,8 @@
+{
+  "script": "sec33_02_rule_c_vs_b_t3_1.py",
+  "approach": "(a) Recomputed from t2_rule_per_basin.csv",
+  "mean_diff_seed20260925": 0.0013102381408292292,
+  "wilcoxon_p_seed20260925": 0.049174066167989486,
+  "mean_diff_across_10_seeds": 0.0009481447088561881,
+  "seeds_significant_p_lt_005": 1
+}

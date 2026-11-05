@@ -1,0 +1,4 @@
+basin_id,members,mean_member_kge,ensemble_series_kge,abs_diff
+1022500,hbv96|mopex5|mopex4,0.758053,0.765172,0.007119
+1031500,mopex5|hbv96|flexis,0.665952,0.665213,0.000739
+1047000,hbv96|mopex5|mopex4,0.484267,0.484471,0.000204

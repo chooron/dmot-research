@@ -1,0 +1,10 @@
+condition,target,target_pct,need_basins,proven_minimum_models,budget_minus_1,max_basins_coverable_with_budget_minus_1,proves_k_impossible,solver_status
+IC,0.900000,90%,478,3,2,445,True,0
+IC,0.950000,95%,505,4,3,482,True,0
+IC,1.000000,100%,531,11,10,530,True,0
+seen-dPL,0.900000,90%,478,5,4,477,True,0
+seen-dPL,0.950000,95%,505,7,6,500,True,0
+seen-dPL,1.000000,100%,531,17,16,530,True,0
+OOB-dPL,0.900000,90%,478,9,8,471,True,0
+OOB-dPL,0.950000,95%,505,12,11,498,True,0
+OOB-dPL,1.000000,100%,531,22,21,530,True,0

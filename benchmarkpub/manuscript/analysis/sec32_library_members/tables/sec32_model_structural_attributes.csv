@@ -1,0 +1,37 @@
+model,n_parameters,n_states,complexity_band,has_explicit_snow_routine,evidence_source,evidence_import
+alpine1,4,2,low,True,dmotpy/models/core/alpine1.py,from flux.snowfall import snowfall_1 | from flux.melt import melt_1
+alpine2,6,2,low,True,dmotpy/models/core/alpine2.py,from flux.snowfall import snowfall_1 | from flux.melt import melt_1
+australia,8,3,mid,False,dmotpy/models/core/australia.py,
+collie1,1,1,low,False,dmotpy/models/core/collie1.py,
+collie2,4,1,low,False,dmotpy/models/core/collie2.py,
+collie3,6,2,mid,False,dmotpy/models/core/collie3.py,
+flexb,9,3,high,False,dmotpy/models/core/flexb.py,
+flexi,10,4,high,False,dmotpy/models/core/flexi.py,
+flexis,12,5,high,True,dmotpy/models/core/flexis.py,from flux.snowfall import snowfall_1 | from flux.melt import melt_1
+gr4j,4,2,low,False,dmotpy/models/core/gr4j.py,
+gsfb,8,3,mid,False,dmotpy/models/core/gsfb.py,
+hbv96,15,5,high,True,dmotpy/models/core/hbv96.py,from flux.snowfall import snowfall_2 | from flux.melt import melt_1 | from flux.refreeze import refreeze_1
+hillslope,7,2,mid,False,dmotpy/models/core/hillslope.py,
+hymod,5,5,low,False,dmotpy/models/core/hymod.py,
+ihacres,6,1,low,False,dmotpy/models/core/ihacres.py,
+modhydrolog,15,5,high,False,dmotpy/models/core/modhydrolog.py,
+mopex1,5,4,low,False,dmotpy/models/core/mopex1.py,
+mopex2,7,5,mid,True,dmotpy/models/core/mopex2.py,"from flux.mopex import mopex_baseflow_1, mopex_evap_7, mopex_melt_1, mopex_rainfall_1, mopex_recharge_3, mopex_saturation_1, mopex_snowfall_1"
+mopex3,8,5,high,True,dmotpy/models/core/mopex3.py,"from mopex2 import snowfall_1, rainfall_1, melt_1"
+mopex4,10,5,high,True,dmotpy/models/core/mopex4.py,"from flux.mopex import mopex_baseflow_1, mopex_evap_7, mopex_melt_1, mopex_rainfall_1, mopex_recharge_3, mopex_saturation_1, mopex_snowfall_1"
+mopex5,12,5,high,True,dmotpy/models/core/mopex5.py,"from flux.mopex import mopex_baseflow_1, mopex_evap_7, mopex_melt_1, mopex_rainfall_1, mopex_recharge_3, mopex_saturation_1, mopex_snowfall_1"
+newzealand1,6,1,low,False,dmotpy/models/core/newzealand1.py,
+newzealand2,8,2,mid,False,dmotpy/models/core/newzealand2.py,
+penman,4,3,low,False,dmotpy/models/core/penman.py,
+plateau,8,2,mid,False,dmotpy/models/core/plateau.py,
+simhyd,7,2,mid,False,dmotpy/models/core/simhyd.py,
+smar,8,6,high,False,dmotpy/models/core/smar.py,
+susannah1,6,2,mid,False,dmotpy/models/core/susannah1.py,
+susannah2,6,2,mid,False,dmotpy/models/core/susannah2.py,
+tank,12,4,high,False,dmotpy/models/core/tank.py,
+tcm,6,4,mid,False,dmotpy/models/core/tcm.py,
+topmodel,7,2,mid,False,dmotpy/models/core/topmodel.py,
+us1,5,2,low,False,dmotpy/models/core/us1.py,
+vic,10,3,high,False,dmotpy/models/core/vic.py,
+wetland,4,1,low,False,dmotpy/models/core/wetland.py,
+xinanjiang,12,4,high,False,dmotpy/models/core/xinanjiang.py,

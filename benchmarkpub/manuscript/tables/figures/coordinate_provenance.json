@@ -1,0 +1,28 @@
+{
+  "source_url": "https://zenodo.org/records/15529996/files/camels_topo.txt?download=1",
+  "source_sha256": "b64ca9923bcaccf21dde33137903797919e8d6732edd7849f8534e0ddcbec8e8",
+  "coordinate_source_rows": 671,
+  "target_rows": 531,
+  "target_id_unique": true,
+  "filled_ids": [
+    "02196000",
+    "04015330",
+    "04213000",
+    "06221400",
+    "06224000",
+    "07261000",
+    "10336645",
+    "10336660",
+    "11143000",
+    "11482500",
+    "12040500",
+    "12041200",
+    "12082500",
+    "12092000",
+    "12175500",
+    "14137000"
+  ],
+  "remaining_missing_ids": [],
+  "method": "left-preserve 531-row gauge_coordinates_531.csv order; fill only missing lon/lat by exact gauge_id match to gauge_lon/gauge_lat in camels_topo.txt; no imputation",
+  "table_sha256": "c508687822369792f2af3176be4db323c282e3d70245ba573775a0a5f74cede5"
+}

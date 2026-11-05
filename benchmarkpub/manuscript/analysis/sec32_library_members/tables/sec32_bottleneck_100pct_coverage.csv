@@ -1,0 +1,4 @@
+condition,k_100pct_opt,budget_minus_1,max_basins_covered_budget_minus_1,uncovered_basin_count,uncovered_basin_ids,uncovered_basin_equivalent_models,bottleneck_forcing_models
+IC,9,8,529,2,09066300|09378170,09066300: alpine1|alpine2; 09378170: alpine1|alpine2|mopex3|mopex4,alpine1|alpine2|mopex3|mopex4
+seen-dPL,14,13,530,1,11528700,11528700: alpine2,alpine2
+OOB-dPL,21,20,530,1,14236200,14236200: susannah1,susannah1

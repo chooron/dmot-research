@@ -1,0 +1,9 @@
+audit_pass,table_name,file_path,n_rows_checked,n_mismatches,max_abs_diff,alignment_status
+A2_PRIMARY,sec31_basin_rank_spearman_per_basin.csv,sec31_transfer_and_library/tables/sec31_basin_rank_spearman_per_basin.csv,531,0,0.000000,PASS
+A2_PRIMARY,sec31_equivalence_sets_per_basin.csv,sec31_transfer_and_library/tables/sec31_equivalence_sets_per_basin.csv,1593,0,0.000000,PASS
+A2_PRIMARY,sec31_uncertainty_bandwidth_per_basin.csv,sec31_transfer_and_library/tables/sec31_uncertainty_bandwidth_per_basin.csv,1593,439,1.257618,FAIL_MISMATCH
+A2_PRIMARY,sec32_basin_singleton_status.csv,sec32_library_members/tables/sec32_basin_singleton_status.csv,1593,0,0.000000,PASS
+A2_PRIMARY,sec33_fixed_ensemble_per_basin.csv (k=1),sec33_usage_and_conditioning/tables/sec33_fixed_ensemble_per_basin.csv,3717,0,0.000000,PASS
+A2_PRIMARY,sec33_usage_rules_per_basin.csv (Rule A),sec33_usage_and_conditioning/tables/sec33_usage_rules_per_basin.csv,23364,0,0.000000,PASS
+A2_PRIMARY,sec34_equivalence_set_dispersion_per_basin.csv,sec34_determinacy_and_bounds/tables/sec34_equivalence_set_dispersion_per_basin.csv,1593,803,1.803092,FAIL_MISMATCH
+A2_PRIMARY,sec34_parsimony_penalty_per_basin.csv,sec34_determinacy_and_bounds/tables/sec34_parsimony_penalty_per_basin.csv,1593,878,2.064010,FAIL_MISMATCH

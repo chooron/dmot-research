@@ -1,0 +1,11 @@
+type,n,attribute,attribute_global_bh_fdr_q,spearman_rho,scope_note
+0,200,arid,0.075367,0.010423,descriptive only; no significance test and no multiplicity correction
+1,79,arid,0.075367,-0.114825,descriptive only; no significance test and no multiplicity correction
+2,6,arid,0.075367,0.542857,descriptive only; no significance test and no multiplicity correction
+3,42,arid,0.075367,0.240418,descriptive only; no significance test and no multiplicity correction
+4,7,arid,0.075367,0.392857,descriptive only; no significance test and no multiplicity correction
+5,17,arid,0.075367,-0.149510,descriptive only; no significance test and no multiplicity correction
+6,21,arid,0.075367,-0.081818,descriptive only; no significance test and no multiplicity correction
+7,53,arid,0.075367,0.101274,descriptive only; no significance test and no multiplicity correction
+8,44,arid,0.075367,0.106977,descriptive only; no significance test and no multiplicity correction
+9,46,arid,0.075367,0.007709,descriptive only; no significance test and no multiplicity correction

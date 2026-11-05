@@ -1,0 +1,21 @@
+{
+  "coordinate_table": "tables/figures/gauge_coordinates_531.csv",
+  "coordinate_audit": "tables/figures/coordinate_completion_by_map.csv",
+  "figure_overlap_audit": "tables/figures/root_figures_text_overlap_v12.csv",
+  "figures": [
+    "fig1_library_size",
+    "fig2_transfer_penalty",
+    "fig3_library_members",
+    "fig4_identity_transfer"
+  ],
+  "outputs": [
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig1_library_size.png",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig1_library_size.pdf",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig2_transfer_penalty.png",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig2_transfer_penalty.pdf",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig3_library_members.png",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig3_library_members.pdf",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig4_identity_transfer.png",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig4_identity_transfer.pdf"
+  ]
+}

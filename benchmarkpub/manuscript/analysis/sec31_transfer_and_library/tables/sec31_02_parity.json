@@ -1,0 +1,9 @@
+{
+  "script": "sec31_02_variance_decomposition.py",
+  "approach": "(a) Recomputed from pub_same_pipeline_model_basin.csv",
+  "ss_total": 897.9294827822088,
+  "frac_basin": 0.6101208430485281,
+  "frac_model": 0.010218655938825627,
+  "frac_residual": 0.3796605010126462,
+  "max_abs_diff_vs_frozen": 3.3306690738754696e-16
+}

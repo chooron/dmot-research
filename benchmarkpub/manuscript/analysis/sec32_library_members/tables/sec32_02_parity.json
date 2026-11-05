@@ -1,0 +1,10 @@
+{
+  "script": "sec32_02_coverage_ladder_regret.py",
+  "approach": "(a) Recomputed from pub_same_pipeline_model_basin.csv",
+  "max_coverage_abs_diff": 0.0,
+  "max_regret_abs_diff": 7.632783294297951e-17,
+  "coverage_k1": 0.2523540489642185,
+  "coverage_k3": 0.5028248587570622,
+  "coverage_k5": 0.6271186440677966,
+  "coverage_k10": 0.8041431261770244
+}

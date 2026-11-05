@@ -1,0 +1,180 @@
+claim_id,value
+R1:models_positive_delta_kge_fraction,36 / 36 (1.000)
+R1:pooled_delta_kge_pub_median,"median=0.043394;CI95=[0.037455, 0.050364]"
+R1:two_way_anova_basin_ss_share,0.610121
+R1:two_way_anova_model_ss_share,0.010219
+R1:basin_level_seen_vs_oob_rank_spearman_median,0.726126
+R1:global_seen_vs_oob_rank_spearman_canonical,0.970142
+R1:equivalence_set_size_median_ic,7.0
+R1:equivalence_set_size_median_oob_dpl,4.0
+R1:equivalence_set_size_median_seen_dpl,4.0
+R1:minimal_cover_ic_target_100pct,9
+R1:minimal_cover_ic_target_90pct,3
+R1:minimal_cover_ic_target_95pct,4
+R1:minimal_cover_oob_dpl_target_100pct,21
+R1:minimal_cover_oob_dpl_target_90pct,9
+R1:minimal_cover_oob_dpl_target_95pct,12
+R1:minimal_cover_seen_dpl_target_100pct,14
+R1:minimal_cover_seen_dpl_target_90pct,3
+R1:minimal_cover_seen_dpl_target_95pct,6
+R1:multiyear_3yr_block_boot_cover_ic_100,11
+R1:multiyear_3yr_block_boot_cover_ic_90,3
+R1:multiyear_3yr_block_boot_cover_ic_95,4
+R1:multiyear_3yr_block_boot_cover_oob_dpl_100,23
+R1:multiyear_3yr_block_boot_cover_oob_dpl_90,10
+R1:multiyear_3yr_block_boot_cover_oob_dpl_95,13
+R1:multiyear_3yr_block_boot_cover_seen_dpl_100,17
+R1:multiyear_3yr_block_boot_cover_seen_dpl_90,5
+R1:multiyear_3yr_block_boot_cover_seen_dpl_95,7
+R1:bootstrap_cover_ci_ic_100_median,9.0
+R1:bootstrap_cover_ci_ic_90_median,3.0
+R1:bootstrap_cover_ci_ic_95_median,4.0
+R1:bootstrap_cover_ci_oob_dpl_100_median,19.0
+R1:bootstrap_cover_ci_oob_dpl_90_median,8.0
+R1:bootstrap_cover_ci_oob_dpl_95_median,11.0
+R1:bootstrap_cover_ci_seen_dpl_100_median,12.0
+R1:bootstrap_cover_ci_seen_dpl_90_median,3.0
+R1:bootstrap_cover_ci_seen_dpl_95_median,5.0
+R1:uncertainty_bandwidth_ic_1yr_block_boot_4a60a57e,0.0623
+R1:uncertainty_bandwidth_ic_3yr_multiyear_9d8665fa,0.0604
+R1:uncertainty_bandwidth_oob_dpl_1yr_block_b4b8ae8d,0.0577
+R1:uncertainty_bandwidth_oob_dpl_3yr_multi_b6ebdf8a,0.0535
+R1:uncertainty_bandwidth_seen_dpl_1yr_bloc_d529c282,0.0524
+R1:uncertainty_bandwidth_seen_dpl_3yr_mult_3739f126,0.0501
+R2:candidate_set_median_regret_k1,0.0428
+R2:candidate_set_median_regret_k3,0.0000
+R2:candidate_set_median_regret_k5,0.0000
+R2:seen_top3_candidate_union_size,36
+R2:seen_top5_candidate_union_size,36
+R2:optimal_solutions_count_ic_100,4
+R2:optimal_solutions_count_ic_95,3
+R2:optimal_solutions_count_oob_dpl_100,4
+R2:optimal_solutions_count_oob_dpl_95,162
+R2:optimal_solutions_count_seen_dpl_100,18
+R2:optimal_solutions_count_seen_dpl_95,33
+R2:exact_minimum_cover_top3,13
+R2:exact_minimum_cover_top5,9
+R2:bottleneck_forcing_models_ic_100pct,alpine1|alpine2|mopex3|mopex4
+R2:bottleneck_forcing_models_oob_dpl_100pct,susannah1
+R2:bottleneck_forcing_models_seen_dpl_100pct,alpine2
+R2:singleton_total_idjoin_ic,36
+R2:singleton_total_idjoin_oob_dpl,63
+R2:singleton_total_idjoin_seen_dpl,47
+R2:seen_topk_to_oob_top1_coverage_k1,0.2524
+R2:seen_topk_to_oob_top1_coverage_k10,0.8041
+R2:seen_topk_to_oob_top1_coverage_k3,0.5028
+R2:seen_topk_to_oob_top1_coverage_k5,0.6271
+R2:models_with_explicit_snow_routine_count,8 / 36
+R2:oob_100pct_cover_21_snow_routine_count,6 / 21
+R2:seen_top3_min_cover_13_snow_routine_count,5 / 13
+R2:seen_top5_min_cover_9_snow_routine_count,3 / 9
+R3:rules_ladder_a_k1_median,0.66348
+R3:rules_ladder_b_k1_median,0.66348
+R3:rules_ladder_b_k2_median,0.68301
+R3:rules_ladder_b_k3_median,0.67740
+R3:rules_ladder_b_k4_median,0.66957
+R3:rules_ladder_b_k5_median,0.66649
+R3:rules_ladder_b_k7_median,0.65774
+R3:rules_ladder_b_k10_median,0.65006
+R3:rules_ladder_c_k2_median,0.68093
+R3:rules_ladder_c_k3_median,0.67953
+R3:rules_ladder_c_k5_median,0.67203
+R3:rules_ladder_d_k3_median,0.71153
+R3:rules_ladder_e_k36_median,0.74627
+R3:t3_2_fixed_ensemble_k1_median_kge,0.66348
+R3:t3_2_fixed_ensemble_k2_median_kge,0.68301
+R3:t3_2_fixed_ensemble_k3_median_kge,0.67740
+R3:t3_2_fixed_ensemble_k4_median_kge,0.66957
+R3:t3_2_fixed_ensemble_k5_median_kge,0.66649
+R3:t3_2_fixed_ensemble_k7_median_kge,0.65774
+R3:t3_2_fixed_ensemble_k10_median_kge,0.65006
+R3:e8_rule_c_vs_b_k2_mean_diff_mean,-0.006663
+R3:e8_rule_c_vs_b_k5_mean_diff_mean,+0.011940
+R3:t3_1_rule_c_vs_b_diff_mean,+0.000948
+R3:e8_gset_a1b_secondary_k2_mean,-0.107326
+R3:e8_gset_a1b_secondary_k5_mean,+0.169501
+R3:e8_gset_a2d_primary_k2_mean,-0.037765
+R3:e8_gset_a2d_primary_k5_mean,+0.189553
+R3:behavioral_diversity_k3_diff_vs_ranking_mean,-0.066706
+R3:structural_diversity_k3_diff_vs_ranking_mean,-0.065892
+R3:f2_constrained_p25_k2_mean_diff,-0.123235
+R3:f2_constrained_p25_k3_mean_diff,-0.124117
+R3:f2_constrained_p75_k2_mean_diff,-0.060332
+R3:f2_constrained_p75_k3_mean_diff,-0.034161
+R3:f2_constrained_median_k2_mean_diff,-0.045860
+R3:f2_constrained_median_k3_mean_diff,-0.039791
+R3:cluster_oob_top3_coverage_diff,-0.0058
+R3:cluster_oob_top5_regret_diff_mean,-0.0040
+R4:pf_g1_kruskal_wallis,"H=29.6911, p=4.950897e-04"
+R4:pf_g1_pairwise_dunn_holm,45 pairs; 1 with Holm p<0.05
+R4:pf_g1_penalty_median_type0,0.026477
+R4:pf_g1_penalty_median_type1,0.045150
+R4:pf_g1_penalty_median_type2,0.096943
+R4:pf_g1_penalty_median_type3,0.054127
+R4:pf_g1_penalty_median_type4,0.022442
+R4:pf_g1_penalty_median_type5,0.042958
+R4:pf_g1_penalty_median_type6,0.055340
+R4:pf_g1_penalty_median_type7,0.067484
+R4:pf_g1_penalty_median_type8,0.087862
+R4:pf_g1_penalty_median_type9,0.036703
+R4:pf_g1_matched_unmatched_counts,515 matched / 16 unmatched
+R4:pf_g1b_attribute_choice,arid (global q=0.075367)
+R4:pf_g1b_spearman_type0,+0.010423
+R4:pf_g1b_spearman_type1,-0.114825
+R4:pf_g1b_spearman_type2,+0.542857
+R4:pf_g1b_spearman_type3,+0.240418
+R4:pf_g1b_spearman_type4,+0.392857
+R4:pf_g1b_spearman_type5,-0.149510
+R4:pf_g1b_spearman_type6,-0.081818
+R4:pf_g1b_spearman_type7,+0.101274
+R4:pf_g1b_spearman_type8,+0.106977
+R4:pf_g1b_spearman_type9,+0.007709
+R4:basin_attribute_screening_min_q_value,0.0754
+R4:pf_g2_fisher_exact_p,0.000480
+R4:pf_g2_worst26_matched_count,25 / 26
+R4:top5_models_share_of_total_delta_kge,0.1935
+R4:top5pct_basins_share_of_total_delta_kge,0.3425
+R4:pf_h1_null_95_ic_type0,obs=3; null median=4.0; p_le=0.112
+R4:pf_h1_null_95_ic_type1,obs=4; null median=4.0; p_le=0.907
+R4:pf_h1_null_95_ic_type2,obs=2; null median=2.0; p_le=0.888
+R4:pf_h1_null_95_ic_type3,obs=2; null median=3.0; p_le=0.081
+R4:pf_h1_null_95_ic_type4,obs=3; null median=2.0; p_le=0.987
+R4:pf_h1_null_95_ic_type5,obs=3; null median=3.0; p_le=0.735
+R4:pf_h1_null_95_ic_type6,obs=2; null median=3.0; p_le=0.391
+R4:pf_h1_null_95_ic_type7,obs=5; null median=4.0; p_le=0.999
+R4:pf_h1_null_95_ic_type8,obs=3; null median=3.0; p_le=0.658
+R4:pf_h1_null_95_ic_type9,obs=3; null median=3.0; p_le=0.640
+R4:pf_h1_null_95_oob_dpl_type0,obs=8; null median=10.0; p_le=0.017
+R4:pf_h1_null_95_oob_dpl_type1,obs=8; null median=8.0; p_le=0.520
+R4:pf_h1_null_95_oob_dpl_type2,obs=2; null median=3.0; p_le=0.339
+R4:pf_h1_null_95_oob_dpl_type3,obs=4; null median=6.0; p_le=0.023
+R4:pf_h1_null_95_oob_dpl_type4,obs=2; null median=3.0; p_le=0.223
+R4:pf_h1_null_95_oob_dpl_type5,obs=4; null median=5.0; p_le=0.269
+R4:pf_h1_null_95_oob_dpl_type6,obs=4; null median=5.0; p_le=0.397
+R4:pf_h1_null_95_oob_dpl_type7,obs=8; null median=7.0; p_le=0.840
+R4:pf_h1_null_95_oob_dpl_type8,obs=8; null median=7.0; p_le=0.930
+R4:pf_h1_null_95_oob_dpl_type9,obs=7; null median=7.0; p_le=0.713
+R4:pf_h1_null_95_seen_dpl_type0,obs=4; null median=5.0; p_le=0.162
+R4:pf_h1_null_95_seen_dpl_type1,obs=5; null median=5.0; p_le=0.820
+R4:pf_h1_null_95_seen_dpl_type2,obs=1; null median=2.0; p_le=0.157
+R4:pf_h1_null_95_seen_dpl_type3,obs=3; null median=4.0; p_le=0.441
+R4:pf_h1_null_95_seen_dpl_type4,obs=2; null median=2.0; p_le=0.634
+R4:pf_h1_null_95_seen_dpl_type5,obs=2; null median=3.0; p_le=0.129
+R4:pf_h1_null_95_seen_dpl_type6,obs=2; null median=3.0; p_le=0.269
+R4:pf_h1_null_95_seen_dpl_type7,obs=6; null median=4.0; p_le=0.993
+R4:pf_h1_null_95_seen_dpl_type8,obs=5; null median=4.0; p_le=0.964
+R4:pf_h1_null_95_seen_dpl_type9,obs=3; null median=4.0; p_le=0.356
+R4:a3_idjoin_parsimony_mean_diff_ic,+0.010473
+R4:a3_idjoin_parsimony_mean_diff_oob_dpl,+0.006157
+R4:a3_idjoin_parsimony_mean_diff_seen_dpl,+0.011667
+R4:parsimony_penalty_mean_diff_ic,+0.01047
+R4:pf_g4_parsimony_kw_ic,"H=17.4608, p=4.196985e-02"
+R4:pf_g4_parsimony_kw_oob_dpl,"H=8.6301, p=4.720923e-01"
+R4:pf_g4_parsimony_kw_seen_dpl,"H=6.0797, p=7.319118e-01"
+R4:independent_recompute_nparam_vs_param_d_67212833,+0.667690
+R4:independent_recompute_nparam_vs_param_d_4a1c5810,+0.434953
+R4:independent_recompute_nparam_vs_param_f_a11b46b9,+0.521840
+R4:inter_metric_spearman_fold_instability_3caed92d,0.9166
+R4:partial_spearman_param_displacement_euc_179ffec3,+0.6298
+R4:partial_spearman_param_displacement_med_3beeb49e,+0.3930
+R4:partial_spearman_param_fold_instability_298deb04,+0.4737

@@ -1,0 +1,2 @@
+comparison,k,n_seeds,n_basins,mean_diff_mean,mean_diff_min,mean_diff_max,median_diff_mean,ci_lo_basin_mean,ci_hi_basin_mean,ci_lo_wy_mean,ci_hi_wy_mean,wilcoxon_p_mean,wilcoxon_p_min,wilcoxon_p_max,n_seeds_wilcoxon_p_lt_005
+Rule_C_A2d_minus_Rule_B_k3,3,10,531,0.000948,0.000523,0.001418,0.000000,-0.006272,0.007467,-0.006417,0.007597,0.188750,0.049174,0.249162,1

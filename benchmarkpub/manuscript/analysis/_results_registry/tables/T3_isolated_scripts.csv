@@ -1,0 +1,534 @@
+script,exit_status,elapsed_seconds,write_guard_violation,stderr,stdout
+sec31_transfer_and_library/scripts/sec31_01_delta_kge.py,0,1.7169377179998264,False,,"[sec31_01] PASS: pooled median=0.043394, diff=2.776e-17, max model diff=1.180e-16
+"
+sec31_transfer_and_library/scripts/sec31_02_variance_decomposition.py,0,0.849281234000955,False,,"[sec31_02] PASS: basin=0.6101, model=0.0102, max_diff=3.331e-16
+"
+sec31_transfer_and_library/scripts/sec31_03_rank_preservation.py,0,1.1634270000013203,False,,"[sec31_03] PASS: global canonical rho=0.970142 (diff=1.110e-16), basin median rho=0.726126 (diff=0.000e+00)
+"
+sec31_transfer_and_library/scripts/sec31_04_equivalence_and_coverage.py,0,0.8106285950016172,False,,"[sec31_04] PASS: formatted equivalence and coverage curves across 3 conditions (6 upstream files recorded)
+"
+sec31_transfer_and_library/scripts/sec31_05_provenance.py,0,0.03146918799939158,False,,"[sec31_05] PASS: generated PROVENANCE.md for sec31_transfer_and_library
+"
+sec31_transfer_and_library/scripts/sec31_06_fold_composition.py,0,0.8255783430013253,False,,"[sec31_06] PASS: computed fold composition for 13 attributes across 5 folds ([107, 106, 106, 106, 106])
+"
+sec31_transfer_and_library/scripts/sec31_07_jackknife_equivalence_e1.py,0,1.7358280750013364,False,,"[sec31_07] PASS: compiled E1 jackknife vs bootstrap comparison across all 3 conditions:
+condition  target target_pct  need_basins  n_models_block_bootstrap  n_models_jackknife  diff_jackknife_minus_bootstrap  median_size_block_bootstrap  median_size_jackknife
+       IC    0.90        90%          478                         3                   9                               6                          7.0                    2.0
+       IC    0.95        95%          505                         4                  13                               9                          7.0                    2.0
+       IC    1.00       100%          531                         9                  27                              18                          7.0                    2.0
+ seen-dPL    0.90        90%          478                         3                  11                               8                          4.0                    1.0
+ seen-dPL    0.95        95%          505                         6                  16                              10                          4.0                    1.0
+ seen-dPL    1.00       100%          531                        14                  29                              15                          4.0                    1.0
+  OOB-dPL    0.90        90%          478                         9                  18                               9                          4.0                    1.0
+  OOB-dPL    0.95        95%          505                        12                  23                              11                          4.0                    1.0
+  OOB-dPL    1.00       100%          531                        21                  33                              12                          4.0                    1.0
+"
+sec31_transfer_and_library/scripts/sec31_08_multiyear_block_bootstrap_c1.py,0,31.332031193000148,False,,"[sec31_08] PASS: C1 multi-year block bootstrap completed across all 3 conditions:
+condition  target target_pct  need_basins  n_models_1yr_block_bootstrap  n_models_3yr_block_bootstrap  diff_3yr_minus_1yr  median_size_1yr_boot  median_size_3yr_boot  optimality_certified
+       IC    0.90        90%          478                             3                             3                   0                   7.0                   6.0                  True
+       IC    0.95        95%          505                             4                             4                   0                   7.0                   6.0                  True
+       IC    1.00       100%          531                             9                            11                   2                   7.0                   6.0                  True
+ seen-dPL    0.90        90%          478                             3                             5                   2                   4.0                   4.0                  True
+ seen-dPL    0.95        95%          505                             6                             7                   1                   4.0                   4.0                  True
+ seen-dPL    1.00       100%          531                            14                            17                   3                   4.0                   4.0                  True
+  OOB-dPL    0.90        90%          478                             9                            10                   1                   4.0                   3.0                  True
+  OOB-dPL    0.95        95%          505                            12                            13                   1                   4.0                   3.0                  True
+  OOB-dPL    1.00       100%          531                            21                            23                   2                   4.0                   3.0                  True
+"
+sec31_transfer_and_library/scripts/sec31_09_uncertainty_bandwidth_comparison_c2.py,0,33.280973468999946,False,,"[sec31_09] [IC] Uncertainty Band Width (best_point - q05):
+  Primary 1-yr boot:       median=0.0623 [Q25=0.0441, Q75=0.0924], range [0.0151, 0.4948]
+  Jackknife (SUPERSEDED):  median=0.0145 [Q25=0.0097, Q75=0.0234], range [0.0016, 0.1163]
+  C1 3-yr block boot:      median=0.0604 [Q25=0.0386, Q75=0.0983], range [0.0000, 0.5507]
+[sec31_09] [seen-dPL] Uncertainty Band Width (best_point - q05):
+  Primary 1-yr boot:       median=0.0524 [Q25=0.0377, Q75=0.0730], range [0.0072, 0.2600]
+  Jackknife (SUPERSEDED):  median=0.0119 [Q25=0.0080, Q75=0.0178], range [0.0018, 0.0904]
+  C1 3-yr block boot:      median=0.0501 [Q25=0.0331, Q75=0.0713], range [0.0035, 0.2548]
+[sec31_09] [OOB-dPL] Uncertainty Band Width (best_point - q05):
+  Primary 1-yr boot:       median=0.0577 [Q25=0.0409, Q75=0.0805], range [0.0073, 0.4765]
+  Jackknife (SUPERSEDED):  median=0.0138 [Q25=0.0091, Q75=0.0208], range [0.0017, 0.1181]
+  C1 3-yr block boot:      median=0.0535 [Q25=0.0341, Q75=0.0852], range [0.0022, 0.4617]
+[sec31_09] PASS: compiled uncertainty bandwidth comparison across 3 schemes
+"
+sec32_library_members/scripts/sec32_01_library_and_covers.py,0,0.8315922419988055,False,,"[sec32_01] PASS: Top-3 cover=13, Top-5 cover=9, OOB cover=21
+"
+sec32_library_members/scripts/sec32_02_coverage_ladder_regret.py,0,0.9541107320001174,False,,"[sec32_02] PASS: k1=0.2524, k3=0.5028, k5=0.6271, max diff cov=0.000e+00
+"
+sec32_library_members/scripts/sec32_03_model_structural_attributes.py,0,0.8393365769989032,False,,"[sec32_03] PASS: compiled 36 models (8 with snow routine)
+"
+sec32_library_members/scripts/sec32_04_provenance.py,0,0.027909051999813528,False,,"[sec32_04] PASS: generated PROVENANCE.md for sec32_library_members
+"
+sec32_library_members/scripts/sec32_05_process_crosstabs.py,0,0.8985262700007297,False,,"[sec32_05] PASS: generated 3 cross-tabulations (snow counts: full36=8, oob21=6, top3_13=5, top5_9=3)
+"
+sec32_library_members/scripts/sec32_06_bootstrap_cover_ci_e2.py,0,320.0452875430001,False,,"[sec32_06] [IC] 90% cover: obs=3, boot median=3.0 [95% CI 3.0 - 3.0], range 2-4 (25.4s)
+[sec32_06] [IC] 95% cover: obs=4, boot median=4.0 [95% CI 3.0 - 4.0], range 3-5 (20.8s)
+[sec32_06] [IC] 100% cover: obs=9, boot median=9.0 [95% CI 7.0 - 9.0], range 6-9 (5.6s)
+[sec32_06] [seen-dPL] 90% cover: obs=3, boot median=3.0 [95% CI 3.0 - 4.0], range 2-4 (19.1s)
+[sec32_06] [seen-dPL] 95% cover: obs=6, boot median=5.0 [95% CI 4.0 - 6.0], range 4-7 (36.3s)
+[sec32_06] [seen-dPL] 100% cover: obs=14, boot median=12.0 [95% CI 10.0 - 14.0], range 9-14 (5.3s)
+[sec32_06] [OOB-dPL] 90% cover: obs=9, boot median=8.0 [95% CI 7.0 - 9.0], range 6-9 (114.6s)
+[sec32_06] [OOB-dPL] 95% cover: obs=12, boot median=11.0 [95% CI 10.0 - 12.0], range 9-13 (87.5s)
+[sec32_06] [OOB-dPL] 100% cover: obs=21, boot median=19.0 [95% CI 17.0 - 21.0], range 15-21 (4.5s)
+[sec32_06] PASS: completed all 9 condition x target bootstrap sweeps in 319.2s
+"
+sec32_library_members/scripts/sec32_07_optimal_solutions_enumeration_e3.py,0,111.56104073899951,False,,"[sec32_07] [IC] 95% cover: k*=4, n_solutions=3 (trunc=False), core=3, union=6 (1.75s)
+[sec32_07] [IC] 100% cover: k*=9, n_solutions=4 (trunc=False), core=7, union=11 (0.05s)
+[sec32_07] [seen-dPL] 95% cover: k*=6, n_solutions=33 (trunc=False), core=3, union=18 (8.76s)
+[sec32_07] [seen-dPL] 100% cover: k*=14, n_solutions=18 (trunc=False), core=10, union=23 (0.22s)
+[sec32_07] [OOB-dPL] 95% cover: k*=12, n_solutions=162 (trunc=False), core=3, union=29 (99.87s)
+[sec32_07] [OOB-dPL] 100% cover: k*=21, n_solutions=4 (trunc=False), core=19, union=23 (0.04s)
+[sec32_07] PASS: complete enumeration finished in 110.8s
+"
+sec32_library_members/scripts/sec32_08_singleton_and_bottleneck_e4.py,0,1.2901433179995365,False,,"[sec32_08] [IC] singletons=36/531, 100% cover k*=9, budget 8 covers 529/531; 2 uncovered basin(s): ['09066300', '09378170'] requiring models in ['alpine1', 'alpine2', 'mopex3', 'mopex4']
+[sec32_08] [seen-dPL] singletons=47/531, 100% cover k*=14, budget 13 covers 530/531; 1 uncovered basin(s): ['11528700'] requiring models in ['alpine2']
+[sec32_08] [OOB-dPL] singletons=63/531, 100% cover k*=21, budget 20 covers 530/531; 1 uncovered basin(s): ['14236200'] requiring models in ['susannah1']
+[sec32_08] PASS: compiled singleton counts and bottleneck analysis
+"
+sec33_usage_and_conditioning/scripts/sec33_01_usage_rules_t2.py,0,1.1543257359990093,False,,"[sec33_01] PASS: formatted T2 rules A-E (44 summary rows, 23364 per-basin rows)
+"
+sec33_usage_and_conditioning/scripts/sec33_02_rule_c_vs_b_t3_1.py,0,1.5546767200012255,False,,"[sec33_02] PASS: T3-1 C(A2d) - B(k=3) mean_diff=+0.00095, p=0.0492 (1/10 seeds p<0.05)
+"
+sec33_usage_and_conditioning/scripts/sec33_03_fixed_ensemble_scan_t3_2.py,0,4.433167273000436,False,,"[sec33_03] PASS: fixed ensemble scan k=[1, 2, 3, 4, 5, 7, 10], k1=0.6635, k3=0.6774, k5=0.6665
+"
+sec33_usage_and_conditioning/scripts/sec33_04_gset_and_regret.py,0,1.0411278259998653,False,,"[sec33_04] PASS: compiled G_set, paired regret, and transfer curves (7 files)
+"
+sec33_usage_and_conditioning/scripts/sec33_05_cluster_typology.py,0,1.032752518000052,False,,"[sec33_05] PASS: compiled cluster typology and validation tables (4 files)
+"
+sec33_usage_and_conditioning/scripts/sec33_06_provenance.py,0,0.03337162199932209,False,,"[sec33_06] PASS: generated PROVENANCE.md for sec33_usage_and_conditioning
+"
+sec33_usage_and_conditioning/scripts/sec33_07_diversity_sensitivity_v5.py,0,10.675671462000537,False,,"[sec33_07] PASS: diversity sensitivity k=[2, 3, 4, 5, 7, 10], struct k3 diff=-0.06589, behav k3 diff=-0.06671
+"
+sec33_usage_and_conditioning/scripts/sec33_08_recommender_k2_k5_e8.py,0,25.74556044000019,False,,"==============================================================================
+E8: Attribute Recommender Re-fitting, Parity Gate, and k=2, 5 Operating Points
+==============================================================================
+[sec33_08] Leakage check PASSED across all 5 folds (target in training = NO)
+[sec33_08] Snow mask applies to 94 basins
+[sec33_08] Loading persisted full ranking predictions from sec33_recommender_full_rankings.npz...
+[sec33_08] PARITY CHECK: max abs diff = 9.346e-17
+[sec33_08] PARITY PASSED: all 10 seeds bit-exact reproduced frozen gate outputs
+[sec33_08] G_set for k=2, 5 compiled across 10 seeds (table: sec33_e8_gset_k2_k5.csv)
+[sec33_08] Computing daily ensemble simulated discharge KGE for Rule B and Rule C across 5 folds...
+[sec33_08] Rule C vs Rule B paired test completed (table: sec33_e8_rule_c_vs_b_k2_k5.csv)
+[sec33_08] ALL E8 TASKS COMPLETED in 23.2s
+"
+sec33_usage_and_conditioning/scripts/sec33_09_rules_ladder_c3.py,0,28.947976242998266,False,,"[sec33_09] PASS: compiled unified rules ladder table:
+                                 rule_label  kge_median  kge_q25  kge_q75  vs_A_mean_diff  vs_B2_mean_diff
+            Rule A (k=1 global single best)    0.663477 0.501622 0.773778        0.000000        -0.014966
+         Rule B (k=1 fixed global ensemble)    0.663477 0.501622 0.773778        0.000000        -0.014966
+         Rule B (k=2 fixed global ensemble)    0.683008 0.539187 0.780315        0.014966         0.000000
+         Rule B (k=3 fixed global ensemble)    0.677403 0.530109 0.769451        0.010871        -0.004095
+         Rule B (k=4 fixed global ensemble)    0.669573 0.525684 0.762939        0.001730        -0.013236
+         Rule B (k=5 fixed global ensemble)    0.666491 0.508009 0.758089       -0.002054        -0.017020
+         Rule B (k=7 fixed global ensemble)    0.657740 0.510679 0.758046        0.002753        -0.012213
+        Rule B (k=10 fixed global ensemble)    0.650055 0.490675 0.748671       -0.004448        -0.019414
+Rule C (k=2 attribute-conditioned ensemble)    0.680930 0.527656 0.777050        0.008303        -0.006663
+Rule C (k=3 attribute-conditioned ensemble)    0.679525 0.525986 0.774148        0.011819        -0.003147
+Rule C (k=5 attribute-conditioned ensemble)    0.672034 0.528210 0.768195        0.009886        -0.005080
+   Rule D (A2d k=3 candidate set selection)    0.711534 0.575023 0.783640        0.048543         0.033577
+       Rule E (36-model upper bound oracle)    0.746273 0.643456 0.802359        0.108916         0.093950
+"
+sec33_usage_and_conditioning/scripts/sec33_10_rule_c_k2_k5_per_basin_f1.py,0,26.930450266998378,False,,"[F1] wrote sec33_rule_c_k2_k5_per_basin.csv: 10620 rows, seeds=[np.int64(20260925), np.int64(20260926), np.int64(20260927), np.int64(20260928), np.int64(20260929), np.int64(20260930), np.int64(20260931), np.int64(20260932), np.int64(20260933), np.int64(20260934)]
+[F1] per-basin rows: 10620
+                           table slice tested_column  n_rows_checked  n_mismatches  max_abs_diff max_abs_diff_sci status
+sec33_rule_c_k2_k5_per_basin.csv   k=2           kge            5310             0  4.999271e-07        4.999e-07   PASS
+sec33_rule_c_k2_k5_per_basin.csv   k=2     diff_vs_A            5310             0  4.998696e-07        4.999e-07   PASS
+sec33_rule_c_k2_k5_per_basin.csv   k=5           kge            5310             0  4.998660e-07        4.999e-07   PASS
+sec33_rule_c_k2_k5_per_basin.csv   k=5     diff_vs_A            5310             0  4.998321e-07        4.998e-07   PASS
+[F1] comparison max abs diffs by quantity:
+quantity
+vs_A_ci95_hi_basin     4.943803e-07
+vs_A_ci95_hi_wy        4.845373e-07
+vs_A_ci95_lo_basin     4.552966e-07
+vs_A_ci95_lo_wy        4.975504e-07
+vs_A_mean_diff         4.909059e-07
+vs_A_median_diff       4.880200e-07
+vs_A_wilcoxon_p        4.544962e-07
+vs_B2_ci95_hi_basin    4.388891e-07
+vs_B2_ci95_hi_wy       4.960712e-07
+vs_B2_ci95_lo_basin    4.810064e-07
+vs_B2_ci95_lo_wy       4.707148e-07
+vs_B2_mean_diff        4.685287e-07
+vs_B2_median_diff      4.841477e-07
+vs_B2_wilcoxon_p       4.964337e-07
+"
+sec33_usage_and_conditioning/scripts/sec33_11_constrained_fixed_ensemble_f2.py,0,4.579299226999865,False,,"                        False          4.061399e-46  -0.123235    -0.083788 4.061399e-46           -0.141122           -0.105420              -0.123737              -0.122753
+   P25                    5.75  3                  9       531                0.584952                  0.677403                         False          7.950805e-44  -0.124117    -0.079499 7.950805e-44           -0.141850           -0.105639              -0.124651              -0.123586
+median                    7.00  2                 20       531                0.630496                  0.683008                         False          2.105267e-23  -0.045860    -0.040722 2.105267e-23           -0.056650           -0.034948              -0.046149              -0.045510
+median                    7.00  3                 20       531                0.632002                  0.677403                         False          8.290269e-24  -0.039791    -0.038822 8.290269e-24           -0.051522           -0.028080              -0.040129              -0.039428
+   P75                    9.25  2                 27       531                0.639711                  0.683008                         False          6.896810e-29  -0.060332    -0.041520 6.896810e-29           -0.083814           -0.042054              -0.061151              -0.059719
+   P75                    9.25  3                 27       531                0.635524                  0.677403                         False          5.368766e-28  -0.034161    -0.027597 5.368766e-28           -0.047430           -0.024055              -0.034591              -0.033829
+
+[F2] degeneracy per (tier,k):
+          sum  size
+tier   k           
+P25    2    0     5
+       3    0     5
+P75    2    0     5
+       3    0     5
+median 2    0     5
+       3    0     5
+
+[F2] parameter savings (sum) per tier/k:
+          min  max
+tier   k          
+P25    2   18   18
+       3   20   22
+P75    2   12   12
+       3   11   14
+median 2   14   14
+       3   15   18
+"
+sec34_determinacy_and_bounds/scripts/sec34_01_complexity_vs_instability.py,0,0.8246672109999054,False,,"[sec34_01] PASS: fold_rho=0.522, disp_rho=0.435, euclid_rho=0.668
+"
+sec34_determinacy_and_bounds/scripts/sec34_02_multiseed_dispersion.py,0,0.8219263139981194,False,,"[sec34_02] PASS: 8 models x 3 seeds D_self median=0.0560, ratio=14.9%
+"
+sec34_determinacy_and_bounds/scripts/sec34_03_penalty_concentration.py,0,0.8664653500018176,False,,"[sec34_03] PASS: top 5% basins share=0.3425 (diff=5.551e-17), top 5 models share=0.1935 (diff=2.776e-17)
+"
+sec34_determinacy_and_bounds/scripts/sec34_04_attribute_screening.py,0,0.8534944349994475,False,,"[sec34_04] PASS: 15 attributes screened, min q=0.0754, surviving q<0.05=0
+"
+sec34_determinacy_and_bounds/scripts/sec34_05_provenance.py,0,0.029639872002007905,False,,"[sec34_05] PASS: generated PROVENANCE.md for sec34_determinacy_and_bounds
+"
+sec34_determinacy_and_bounds/scripts/sec34_06_parsimony_penalty_e5.py,0,2.2984520259997225,False,,"[sec34_06] [OOB-dPL] mean diff=+0.05128 [95% CI +0.03721, +0.06734], median=+0.01537, wilcoxon p=1.1129e-13, coincided=97/531 (18.3%), param diff median=6.0
+[sec34_06] [seen-dPL] mean diff=+0.07447 [95% CI +0.06219, +0.08759], median=+0.03506, wilcoxon p=4.6072e-36, coincided=62/531 (11.7%), param diff median=8.0
+[sec34_06] [IC] mean diff=+0.01047 [95% CI +0.00734, +0.01361], median=+0.00268, wilcoxon p=5.4800e-11, coincided=76/531 (14.3%), param diff median=8.0
+[sec34_06] PASS: parsimony penalty analysis completed across all 3 conditions
+"
+sec34_determinacy_and_bounds/scripts/sec34_07_partial_correlation_e6.py,0,0.9755459929983772,False,,"[sec34_07] param_fold_instability_median:
+  Uncontrolled:            rho=+0.5218, p_perm=0.0015
+  Controlling seen_kge:    rho=+0.4737, p_perm=0.0045
+  Controlling oob_kge:     rho=+0.4720, p_perm=0.0046
+[sec34_07] param_displacement_median:
+  Uncontrolled:            rho=+0.4350, p_perm=0.0076
+  Controlling seen_kge:    rho=+0.3930, p_perm=0.0184
+  Controlling oob_kge:     rho=+0.3956, p_perm=0.0180
+[sec34_07] param_displacement_euclid_median:
+  Uncontrolled:            rho=+0.6677, p_perm=0.0002
+  Controlling seen_kge:    rho=+0.6298, p_perm=0.0002
+  Controlling oob_kge:     rho=+0.6285, p_perm=0.0001
+[sec34_07] PASS: compiled uncontrolled and controlled partial Spearman correlations
+"
+sec34_determinacy_and_bounds/scripts/sec34_08_displacement_correlation_recompute_e7.py,0,1.0870202430014615,False,,"[sec34_08] param_fold_instability_median:
+  rho:    recomputed=0.521840, existing=0.521840, abs_diff=0.000e+00
+  p_perm: recomputed=0.001500, existing=0.001500, abs_diff=2.168e-19
+[sec34_08] param_displacement_median:
+  rho:    recomputed=0.434953, existing=0.434953, abs_diff=0.000e+00
+  p_perm: recomputed=0.007599, existing=0.007599, abs_diff=8.674e-19
+[sec34_08] param_displacement_euclid_median:
+  rho:    recomputed=0.667690, existing=0.667690, abs_diff=0.000e+00
+  p_perm: recomputed=0.000200, existing=0.000200, abs_diff=2.711e-20
+[sec34_08] PASS: 3x3 correlation matrix and independent recomputation completed
+"
+sec34_determinacy_and_bounds/scripts/sec34_09_equivalence_dispersion_c4.py,0,2.3860463550008717,False,,"[sec34_09] [OOB-dPL] Within-Equivalence-Set Dispersion:
+  Range (best-worst): median=0.1163 [Q25=0.0413, Q75=0.2162, P90=0.3745]
+  IQR:                median=0.0464 [Q25=0.0189, Q75=0.0866]
+  Set Size:           median=4.0 [Q25=2.0, Q75=6.0]
+[sec34_09] [seen-dPL] Within-Equivalence-Set Dispersion:
+  Range (best-worst): median=0.1027 [Q25=0.0402, Q75=0.1903, P90=0.3476]
+  IQR:                median=0.0374 [Q25=0.0167, Q75=0.0758]
+  Set Size:           median=4.0 [Q25=3.0, Q75=7.0]
+[sec34_09] [IC] Within-Equivalence-Set Dispersion:
+  Range (best-worst): median=0.0549 [Q25=0.0318, Q75=0.0819, P90=0.1252]
+  IQR:                median=0.0208 [Q25=0.0111, Q75=0.0342]
+  Set Size:           median=7.0 [Q25=4.0, Q75=15.0]
+[sec34_09] PASS: compiled equivalence set dispersion tables
+"
+sec34_determinacy_and_bounds/scripts/sec34_10_equivalence_bandwidth_diagnostic_k1_k5.py,0,18.548209881999355,False,,"[sec34_10] PASS: completed all diagnostic audits K1-K5
+
+--- K1 Summary (Range <= Delta_b) ---
+condition  n_violations  violation_fraction  ratio_range_over_delta_median  ratio_range_over_delta_p90
+       IC             0            0.000000                       0.910674                    0.988441
+ seen-dPL           330            0.621469                       1.541200                    7.389549
+  OOB-dPL           331            0.623352                       1.764843                    6.997446
+
+--- K3 Single Source Recomputation ---
+condition  recomputed_bandwidth_median  recomputed_range_median  recomputed_violations_count
+       IC                     0.062335                 0.054913                            0
+ seen-dPL                     0.052384                 0.042026                            0
+  OOB-dPL                     0.057715                 0.040345                            0
+
+--- K5 Parsimony Penalty Audit (Penalty <= Delta_b) ---
+condition  n_violations_penalty_gt_delta  violation_fraction  ratio_penalty_over_delta_median  ratio_penalty_over_delta_p90
+       IC                              0            0.000000                         0.038623                      0.781189
+ seen-dPL                            195            0.367232                         0.533408                      4.639632
+  OOB-dPL                            159            0.299435                         0.241329                      3.836313
+"
+sec34_determinacy_and_bounds/scripts/sec34_11_audit_basin_alignment_a1_a2.py,0,50.31042581699876,False,,"==============================================================================
+A1 & A2: Comprehensive Audit of Basin Positional Indexing and Table Alignment
+==============================================================================
+
+[A1 Static Audit] Processed 23 positional indexing locations:
+  ALIGNED: 18
+  MISALIGNED: 5
+
+[A2 Empirical Audit] Checked 8 basin-level tables across manuscript tree:
+                                    table_name  n_rows_checked  n_mismatches  max_abs_diff alignment_status
+       sec31_basin_rank_spearman_per_basin.csv             531             0  4.993565e-07             PASS
+          sec31_equivalence_sets_per_basin.csv            1593             0  4.999418e-07             PASS
+     sec31_uncertainty_bandwidth_per_basin.csv            1593           439  1.257618e+00    FAIL_MISMATCH
+              sec32_basin_singleton_status.csv            1593             0  0.000000e+00             PASS
+      sec33_fixed_ensemble_per_basin.csv (k=1)            3717             0  4.999680e-07             PASS
+      sec33_usage_rules_per_basin.csv (Rule A)           23364             0  4.999680e-07             PASS
+sec34_equivalence_set_dispersion_per_basin.csv            1593           803  1.803092e+00    FAIL_MISMATCH
+         sec34_parsimony_penalty_per_basin.csv            1593           878  2.064010e+00    FAIL_MISMATCH
+"
+sec34_determinacy_and_bounds/scripts/sec34_12_basin_audit_supplement.py,0,15.327762245000486,False,,"                         sec33_usage_rules_per_basin.csv                              rule=E             531             0  4.999418e-07             PASS
+                                                   sec33_usage_rules_per_basin.csv                             rule=B3             531             0  4.982623e-07             PASS
+                                                   sec33_usage_rules_per_basin.csv                             rule=B5             531             0  4.995231e-07             PASS
+                                                   sec33_usage_rules_per_basin.csv          rule=C_A2d (k=3, 10 seeds)            5310             0  4.993374e-07             PASS
+                                                   sec33_usage_rules_per_basin.csv          rule=C_A1b (k=3, 10 seeds)            5310             0  4.993438e-07             PASS
+                                                   sec33_usage_rules_per_basin.csv          rule=D_A2d (k=3, 10 seeds)            5310             0  4.990991e-07             PASS
+                                                   sec33_usage_rules_per_basin.csv          rule=D_A1b (k=3, 10 seeds)            5310             0  4.998269e-07             PASS
+              basin_attribute_table.csv (15-attribute screening per-basin penalty) penalty_median_pub (all 531 basins)             531             0  3.330669e-16             PASS
+sec33_rules_ladder_unified.csv (Rule C per-basin basis, no stored per-basin table)      Rule C k=2 10-seed median mean              10             0  4.697653e-07             PASS
+sec33_rules_ladder_unified.csv (Rule C per-basin basis, no stored per-basin table)      Rule C k=3 10-seed median mean              10             0  2.192213e-07             PASS
+sec33_rules_ladder_unified.csv (Rule C per-basin basis, no stored per-basin table)      Rule C k=5 10-seed median mean              10             0  4.735981e-07             PASS
+[sec34_12] PASS: supplementary audit complete
+"
+sec34_determinacy_and_bounds/scripts/sec34_13_attribute_screening_idjoin_a4.py,0,2.326498039998114,False,,"       4.632537e-07
+        s_cond                 0.103176           0.015198             0.075367  2.294138e-07     4.801520e-07       4.632537e-07
+  runoff_ratio                -0.100704           0.020098             0.075367  1.909218e-07     9.799020e-09       4.632537e-07
+      pet_mean                 0.090218           0.037996             0.113989  3.320994e-07     2.003800e-07       3.988601e-07
+zero_flow_frac                 0.073915           0.088091             0.220228  3.396446e-07     1.908809e-07       2.279772e-08
+        p_seas                -0.062639           0.151985             0.325682  1.539409e-07     1.984802e-07       2.824575e-07
+      f_forest                -0.056361           0.192081             0.360151  4.314192e-08     2.080792e-07       4.848515e-07
+        f_snow                -0.052377           0.230977             0.384962  2.802364e-07     9.769023e-08       4.961504e-07
+        p_mean                -0.037158           0.393161             0.569125  4.601347e-07     3.160684e-07       9.430875e-08
+          area                 0.035129           0.417358             0.569125  3.156897e-09     2.641736e-07       9.430875e-08
+          q_cv                 0.017037           0.695730             0.759138  3.928113e-09     4.269573e-07       3.718771e-07
+      q_log_sd                -0.016595           0.707029             0.759138  4.540973e-07     2.970703e-07       3.718771e-07
+         slope                 0.016222           0.708529             0.759138  2.783987e-07     1.470853e-07       3.718771e-07
+          elev                 0.008634           0.841316             0.841316  7.353666e-08     1.315868e-07       1.315868e-07
+
+Summary:
+              metric  recomputed  existing     abs_diff
+         n_variables   15.000000 15.000000 0.000000e+00
+ n_surviving_fdr_005    0.000000  0.000000 0.000000e+00
+        min_bh_fdr_q    0.075367  0.075367 4.632537e-07
+max_abs_spearman_rho    0.119781  0.119781 1.661796e-07
+"
+sec34_determinacy_and_bounds/scripts/sec34_14_bottleneck_singleton_idjoin.py,0,4.28168398300113,False,,"[sec34_14] [IC] K*=9, budget 8 covers 529/531; uncovered=['09066300', '09378170']; forcing=['alpine1', 'alpine2', 'mopex3', 'mopex4'] | match_ids=True, match_models=True
+[sec34_14] [seen-dPL] K*=14, budget 13 covers 530/531; uncovered=['11528700']; forcing=['alpine2'] | match_ids=True, match_models=True
+[sec34_14] [OOB-dPL] K*=21, budget 20 covers 530/531; uncovered=['14236200']; forcing=['susannah1'] | match_ids=True, match_models=True
+
+Bottleneck comparison:
+condition  k_star_idjoin  max_basins_covered_budget_minus_1 uncovered_basin_ids_idjoin bottleneck_forcing_models_idjoin  basin_ids_match  forcing_models_match
+       IC              9                                529          09066300|09378170    alpine1|alpine2|mopex3|mopex4             True                  True
+ seen-dPL             14                                530                   11528700                          alpine2             True                  True
+  OOB-dPL             21                                530                   14236200                        susannah1             True                  True
+
+Singleton totals:
+condition  total_singletons_idjoin  total_singletons_existing  abs_diff
+       IC                       36                         36         0
+  OOB-dPL                       63                         63         0
+ seen-dPL                       47                         47         0
+
+Per-model singleton mismatches: 0/108
+"
+sec34_determinacy_and_bounds/scripts/sec34_15_a3_recompute_parsimony_dispersion_idjoin.py,0,2.4469025310027064,False,,"] Per-basin old-vs-new mismatch summary:
+                     table condition  n_rows  n_mismatch  max_abs_diff
+        parsimony_diff_kge        IC     531           0  4.993528e-07
+        parsimony_diff_kge   OOB-dPL     531         372  1.803092e+00
+        parsimony_diff_kge  seen-dPL     531         399  1.045137e+00
+dispersion_point_kge_range        IC     531           0  4.998046e-07
+dispersion_point_kge_range   OOB-dPL     531         394  1.803092e+00
+dispersion_point_kge_range  seen-dPL     531         409  9.595200e-01
+
+[A3] Parsimony summary comparison (abs diffs):
+metric     ci95_hi_basin_boot  ci95_lo_basin_boot  mean_diff_kge  median_diff_kge  n_coincided  n_ties_broken_min_params  param_diff_median  param_diff_q25  param_diff_q75    wilcoxon_p
+condition                                                                                                                                                                                
+IC                   0.000258            0.000007   3.719059e-07     3.160331e-07          0.0                       0.0                0.0             0.0             0.0  5.480023e-11
+OOB-dPL              0.057553            0.034781   4.512019e-02     1.536800e-02          3.0                       0.0                0.0             0.5             0.0  2.148328e-05
+seen-dPL             0.072696            0.053620   6.280305e-02     2.590134e-02          0.0                       0.0                0.0             0.0             0.0  1.171088e-13
+
+[A3] Dispersion summary comparison (abs diffs):
+metric     best_minus_worst_diff  equivalence_set_size  point_kge_iqr  point_kge_range
+condition                                                                             
+IC                  2.373130e-07                   0.0   2.326143e-07     2.373130e-07
+OOB-dPL             1.297632e-01                   0.0   5.285158e-02     1.297632e-01
+seen-dPL            1.136380e-01                   0.0   4.272210e-02     1.136380e-01
+"
+sec34_determinacy_and_bounds/scripts/sec34_16_a5_remaining_idjoin.py,0,0.9784091050023562,False,,"[sec34_16] cluster matching: matched=515/531 (existing 515), unmatched_id_set_equal=True
+[sec34_16] cluster validation k=3: global cov 0.4311 (exist 0.4311), cluster cov 0.4252 (exist 0.4252), diff regret -0.00405 (exist -0.00400)
+[sec34_16] cluster validation k=5: global cov 0.5204 (exist 0.5204), cluster cov 0.5126 (exist 0.5126), diff regret -0.00402 (exist -0.00400)
+[sec34_16] fold composition: 78 rows compared, max abs diff=5.000e-07
+[sec34_16] penalty concentration: top5% basins 0.3425 (exist 0.3425), top5 models 0.1935 (exist 0.1935)
+[sec34_16] coverage ladder k=1: coverage 0.2524 (exist 0.2524), regret median 0.0428 (exist 0.0428)
+[sec34_16] coverage ladder k=3: coverage 0.5028 (exist 0.5028), regret median 0.0000 (exist 0.0000)
+[sec34_16] coverage ladder k=5: coverage 0.6271 (exist 0.6271), regret median 0.0000 (exist 0.0000)
+[sec34_16] coverage ladder k=10: coverage 0.8041 (exist 0.8041), regret median 0.0000 (exist 0.0000)
+
+[A5] summary:
+                  item  n_checks  max_abs_diff
+cluster_matching_count         2  0.000000e+00
+  cluster_matching_ids         1  0.000000e+00
+ cluster_validation_k3         8  4.694130e-05
+ cluster_validation_k5         8  3.300971e-05
+       coverage_ladder         8  3.559322e-07
+      fold_composition         1  5.000000e-07
+ penalty_concentration         2  4.739564e-08
+"
+sec35_cluster_stratified/scripts/sec35_01_penalty_by_type_g1.py,0,0.9160192810013541,False,,"[G1] matched=515 unmatched=16 types=10
+[G1] Kruskal-Wallis H=29.6911 df=9 p=4.950897e-04 epsilon^2=0.0410
+ type   n   median       q25      q75     mean       min      max  mean_rank
+    0 200 0.026477  0.000903 0.082879 0.056974 -0.183181 1.341130 225.320000
+    1  79 0.045150  0.000963 0.122420 0.089934 -0.136996 0.951918 250.746835
+    2   6 0.096943  0.063510 0.110907 0.095054  0.015862 0.192651 341.666667
+    3  42 0.054127  0.024013 0.091765 0.077710 -0.000981 0.338769 287.738095
+    4   7 0.022442  0.001033 0.069893 0.050824 -0.041193 0.232666 217.571429
+    5  17 0.042958 -0.007784 0.102043 0.047633 -0.121261 0.280492 239.882353
+    6  21 0.055340  0.027022 0.119951 0.080688 -0.034497 0.270610 288.571429
+    7  53 0.067484  0.014368 0.147454 0.118465 -0.084735 0.720406 287.641509
+    8  44 0.087862  0.047206 0.208860 0.222049 -0.094420 1.537134 337.204545
+    9  46 0.036703  0.011020 0.137461 0.076940 -0.028984 0.339185 263.456522
+[G1] pairwise pairs=45 significant(Holm<0.05)=1
+[G1b] attribute=arid (global q=0.075367); per-type rho:
+ type   n  spearman_rho
+    0 200      0.010423
+    1  79     -0.114825
+    2   6      0.542857
+    3  42      0.240418
+    4   7      0.392857
+    5  17     -0.149510
+    6  21     -0.081818
+    7  53      0.101274
+    8  44      0.106977
+    9  46      0.007709
+"
+sec35_cluster_stratified/scripts/sec35_02_worst_basins_by_type_g2.py,0,2.334342253001523,False,,"[G2] top-26: matched=25 unmatched=1
+ type  n_matched  n_in_top26  n_not_in_top26  expected_in_top26  obs_minus_expected
+    0        200           3             197           9.708738           -6.708738
+    1         79           5              74           3.834951            1.165049
+    2          6           0               6           0.291262           -0.291262
+    3         42           0              42           2.038835           -2.038835
+    4          7           0               7           0.339806           -0.339806
+    5         17           0              17           0.825243           -0.825243
+    6         21           0              21           1.019417           -1.019417
+    7         53           8              45           2.572816            5.427184
+    8         44           7              37           2.135922            4.864078
+    9         46           2              44           2.233010           -0.233010
+[G2] exact MC p=0.000480 (se=6.93e-05, draws=100000, seed=20261005); chi2 p=0.000101
+"
+sec35_cluster_stratified/scripts/sec35_03_equivalence_library_by_type_g3.py,0,2.8171218220013543,False,,"                   -4                20                               False
+ seen-dPL     7             53                   6                  6                       0                51                               False
+ seen-dPL     8             44                   5                  6                      -1                42                               False
+ seen-dPL     9             46                   3                  6                      -3                44                               False
+  OOB-dPL     0            200                   8                 12                      -4               190                               False
+  OOB-dPL     1             79                   8                 12                      -4                76                               False
+  OOB-dPL     2              6                   2                 12                     -10                 6                                True
+  OOB-dPL     3             42                   4                 12                      -8                40                               False
+  OOB-dPL     4              7                   2                 12                     -10                 7                                True
+  OOB-dPL     5             17                   4                 12                      -8                17                                True
+  OOB-dPL     6             21                   4                 12                      -8                20                               False
+  OOB-dPL     7             53                   8                 12                      -4                51                               False
+  OOB-dPL     8             44                   8                 12                      -4                42                               False
+  OOB-dPL     9             46                   7                 12                      -5                44                               False
+"
+sec35_cluster_stratified/scripts/sec35_04_parsimony_by_type_g4.py,0,0.8786113289970672,False,,"6468 0.258113
+       IC     8  44  0.000000 -0.020970 0.037935  0.008443 -0.089100 0.122737
+       IC     9  46  0.000156  0.000000 0.020179  0.005866 -0.065585 0.042735
+ seen-dPL     0 200  0.011294 -0.003757 0.037733  0.014143 -0.049050 0.087664
+ seen-dPL     1  79  0.007295 -0.014177 0.031030  0.006001 -0.176922 0.132381
+ seen-dPL     2   6  0.000881  0.000000 0.025317  0.018178 -0.016591 0.090729
+ seen-dPL     3  42  0.010495  0.000000 0.024986  0.008361 -0.068224 0.071020
+ seen-dPL     4   7  0.021809  0.000385 0.026807  0.009452 -0.044012 0.033985
+ seen-dPL     5  17  0.000000 -0.019490 0.019877  0.007444 -0.045468 0.149549
+ seen-dPL     6  21  0.022170  0.000000 0.026997  0.011695 -0.036346 0.049156
+ seen-dPL     7  53  0.000000 -0.018199 0.038375  0.012906 -0.079761 0.214778
+ seen-dPL     8  44  0.014771 -0.010250 0.037106  0.016018 -0.077996 0.117181
+ seen-dPL     9  46  0.000142 -0.001313 0.022788  0.005925 -0.047384 0.036414
+  OOB-dPL     0 200  0.001717 -0.005952 0.030258  0.010029 -0.157255 0.155542
+  OOB-dPL     1  79  0.000000 -0.013910 0.018789  0.001150 -0.174825 0.110118
+  OOB-dPL     2   6 -0.003069 -0.028807 0.000000 -0.009055 -0.061158 0.049327
+  OOB-dPL     3  42  0.000000  0.000000 0.027613  0.011275 -0.079936 0.141657
+  OOB-dPL     4   7  0.000000 -0.008563 0.022559  0.006888 -0.013603 0.033824
+  OOB-dPL     5  17 -0.005422 -0.013076 0.002980 -0.000474 -0.028903 0.069520
+  OOB-dPL     6  21  0.000000 -0.012141 0.015454  0.002115 -0.039294 0.058171
+  OOB-dPL     7  53  0.000000 -0.027168 0.018873 -0.000004 -0.281423 0.195202
+  OOB-dPL     8  44  0.000000 -0.019431 0.021225  0.003532 -0.113595 0.122590
+  OOB-dPL     9  46  0.000000 -0.006681 0.029105  0.007930 -0.039540 0.062072
+
+[G4] Kruskal-Wallis:
+condition  statistic  df  p_value  effect_size_value  n_total
+       IC  17.460832   9 0.041970           0.016754      515
+ seen-dPL   6.079740   9 0.731912          -0.005783      515
+  OOB-dPL   8.630132   9 0.472092          -0.000732      515
+"
+sec35_cluster_stratified/scripts/sec35_05_provenance.py,0,0.4129064650005603,False,,"[sec35_05] PASS: generated PROVENANCE.md for sec35_cluster_stratified
+"
+sec36_size_matched_null/scripts/sec36_01_size_matched_null_h1.py,0,194.48750548500175,False,,"0 p5=4.0 p95=6.0 p_le=0.980 (186s)
+[H1 secondary_100] IC type8: obs=4 null_med=4.0 p5=3.0 p95=6.0 p_le=0.597 (187s)
+[H1 secondary_100] IC type9: obs=4 null_med=4.0 p5=3.0 p95=6.0 p_le=0.552 (187s)
+[H1 secondary_100] seen-dPL type0: obs=8 null_med=10.0 p5=8.0 p95=12.0 p_le=0.080 (188s)
+[H1 secondary_100] seen-dPL type1: obs=7 null_med=7.0 p5=5.0 p95=9.0 p_le=0.731 (188s)
+[H1 secondary_100] seen-dPL type2: obs=1 null_med=2.0 p5=1.0 p95=3.0 p_le=0.124 (188s)
+[H1 secondary_100] seen-dPL type3: obs=4 null_med=5.0 p5=3.0 p95=7.0 p_le=0.244 (188s)
+[H1 secondary_100] seen-dPL type4: obs=2 null_med=2.0 p5=1.0 p95=3.0 p_le=0.706 (189s)
+[H1 secondary_100] seen-dPL type5: obs=2 null_med=4.0 p5=2.0 p95=5.0 p_le=0.114 (189s)
+[H1 secondary_100] seen-dPL type6: obs=3 null_med=4.0 p5=2.0 p95=5.0 p_le=0.423 (189s)
+[H1 secondary_100] seen-dPL type7: obs=7 null_med=5.0 p5=4.0 p95=7.0 p_le=0.950 (190s)
+[H1 secondary_100] seen-dPL type8: obs=6 null_med=5.0 p5=4.0 p95=7.0 p_le=0.846 (190s)
+[H1 secondary_100] seen-dPL type9: obs=4 null_med=5.0 p5=4.0 p95=7.0 p_le=0.169 (190s)
+[H1 secondary_100] OOB-dPL type0: obs=13 null_med=16.0 p5=14.0 p95=18.0 p_le=0.025 (191s)
+[H1 secondary_100] OOB-dPL type1: obs=11 null_med=11.0 p5=9.0 p95=13.0 p_le=0.627 (191s)
+[H1 secondary_100] OOB-dPL type2: obs=2 null_med=3.0 p5=2.0 p95=4.0 p_le=0.294 (191s)
+[H1 secondary_100] OOB-dPL type3: obs=5 null_med=8.0 p5=6.0 p95=11.0 p_le=0.010 (192s)
+[H1 secondary_100] OOB-dPL type4: obs=2 null_med=3.0 p5=2.0 p95=5.0 p_le=0.204 (192s)
+[H1 secondary_100] OOB-dPL type5: obs=4 null_med=5.0 p5=3.0 p95=7.0 p_le=0.303 (192s)
+[H1 secondary_100] OOB-dPL type6: obs=5 null_med=6.0 p5=4.0 p95=7.0 p_le=0.418 (193s)
+[H1 secondary_100] OOB-dPL type7: obs=10 null_med=9.0 p5=7.0 p95=12.0 p_le=0.831 (193s)
+[H1 secondary_100] OOB-dPL type8: obs=10 null_med=9.0 p5=6.0 p95=11.0 p_le=0.915 (193s)
+[H1 secondary_100] OOB-dPL type9: obs=8 null_med=9.0 p5=6.0 p95=11.0 p_le=0.473 (194s)
+[H1] PASS: 90 cells, non-optimal solves = 0, elapsed 194s
+"
+sec36_size_matched_null/scripts/sec36_02_type_cover_absolute_h2.py,0,2.6210224390015355,False,,"[H2] absolute per-type minimal cover (condition x type x target):
+  IC 90%: t0:3/200 | t1:3/79 | t2:2/6 | t3:2/42 | t4:3/7 | t5:2/17 | t6:1/21 | t7:4/53 | t8:3/44 | t9:3/46
+  IC 95%: t0:3/200 | t1:4/79 | t2:2/6 | t3:2/42 | t4:3/7 | t5:3/17 | t6:2/21 | t7:5/53 | t8:3/44 | t9:3/46
+  IC 100%: t0:5/200 | t1:6/79 | t2:2/6 | t3:2/42 | t4:3/7 | t5:3/17 | t6:2/21 | t7:6/53 | t8:4/44 | t9:4/46
+  seen-dPL 90%: t0:2/200 | t1:3/79 | t2:1/6 | t3:2/42 | t4:2/7 | t5:2/17 | t6:2/21 | t7:5/53 | t8:4/44 | t9:2/46
+  seen-dPL 95%: t0:4/200 | t1:5/79 | t2:1/6 | t3:3/42 | t4:2/7 | t5:2/17 | t6:2/21 | t7:6/53 | t8:5/44 | t9:3/46
+  seen-dPL 100%: t0:8/200 | t1:7/79 | t2:1/6 | t3:4/42 | t4:2/7 | t5:2/17 | t6:3/21 | t7:7/53 | t8:6/44 | t9:4/46
+  OOB-dPL 90%: t0:6/200 | t1:6/79 | t2:2/6 | t3:3/42 | t4:2/7 | t5:3/17 | t6:4/21 | t7:6/53 | t8:7/44 | t9:6/46
+  OOB-dPL 95%: t0:8/200 | t1:8/79 | t2:2/6 | t3:4/42 | t4:2/7 | t5:4/17 | t6:4/21 | t7:8/53 | t8:8/44 | t9:7/46
+  OOB-dPL 100%: t0:13/200 | t1:11/79 | t2:2/6 | t3:5/42 | t4:2/7 | t5:4/17 | t6:5/21 | t7:10/53 | t8:10/44 | t9:8/46
+[H2] certificates: 90/90 cells prove budget K*-1 insufficient
+[H2] vs G3: {'n_rows_compared': 90, 'max_abs_diff_min_models': 0.0, 'max_abs_diff_certificate': 0.0, 'n_rows_with_any_diff': 0}
+"
+sec36_size_matched_null/scripts/sec36_03_provenance.py,0,0.3945315769997251,False,,"[sec36_03] PASS: generated PROVENANCE.md for sec36_size_matched_null
+"
+sec_si_scope/scripts/si_01_cross_metric_overlap.py,0,0.817659050997463,False,,"[si_01] PASS: dPL logKGE overlap=0.2147, FHV overlap=0.4325
+"
+sec_si_scope/scripts/si_02_equivalence_protocol_params.py,0,0.7892747470032191,False,,"[si_02] PASS: compiled protocol parameters across 3 conditions (B=1000, seed=20260925)
+"
+sec_si_scope/scripts/si_03_provenance.py,0,0.027331919998687226,False,,"[si_03] PASS: generated PROVENANCE.md for sec_si_scope
+"
+_verification/scripts/v1_recompute_abstract_numbers.py,0,15.891516446001333,False,,"[v1_recompute] PASS: All 5 groups of abstract numbers independently recomputed.
+   cover95_model_count_IC                     | recomputed: 4.0          | existing: 4.0          | abs_diff: 0.000e+00
+   cover95_model_count_seen_dpl               | recomputed: 6.0          | existing: 6.0          | abs_diff: 0.000e+00
+   cover95_model_count_oob_dpl                | recomputed: 12.0         | existing: 12.0         | abs_diff: 0.000e+00
+   cover100_model_count_IC                    | recomputed: 9.0          | existing: 9.0          | abs_diff: 0.000e+00
+   cover100_model_count_seen_dpl              | recomputed: 14.0         | existing: 14.0         | abs_diff: 0.000e+00
+   cover100_model_count_oob_dpl               | recomputed: 21.0         | existing: 21.0         | abs_diff: 0.000e+00
+   fixed_global_k2_vs_k1_paired_diff_median   | recomputed: 0.011325257049407012 | existing: 0.011325     | abs_diff: 2.570e-07
+   full_36_model_oracle_kge_median            | recomputed: 0.7462731831537561 | existing: 0.7462711677 | abs_diff: 2.015e-06
+   delta_kge_pub_pooled_median                | recomputed: 0.04339430643989299 | existing: 0.0433943064 | abs_diff: 3.989e-11
+"
+_verification/scripts/v1_provenance.py,0,0.40795093000269844,False,,"PASS: generated PROVENANCE.md for _verification
+"
+_manifest/scripts/compile_master_manifest.py,0,0.5611017019982683,False,,"PASS: compiled master manifest with 416 cited numbers across 12 sections
+Derivation type counts:
+derivation_type
+RECOMPUTED     118
+RE-VERIFIED    101
+POST-FREEZE     96
+LOADED          69
+SUPERSEDED      20
+SENSITIVITY     12
+"
+_manifest/scripts/export_citable_numbers_f3.py,0,0.46227764200011734,False,,"[F3] citable rows: 315 (status counts: {'RECOMPUTED': 118, 'RE-VERIFIED': 101, 'POST-FREEZE': 96})
+[F3] citable freeze_phase counts: {'pre_freeze': 219, 'post_freeze': 96}
+[F3] citable Results sections: 11 -> ['Independent Verification', 'POST-FREEZE G1', 'POST-FREEZE G2', 'POST-FREEZE G3', 'POST-FREEZE G4', 'POST-FREEZE H1', 'POST-FREEZE H2', 'Results 3.1', 'Results 3.2', 'Results 3.3', 'Results 3.4']
+[F3] excluded rows: 101 (status counts: {'LOADED': 69, 'SUPERSEDED': 20, 'SENSITIVITY': 12})
+[F3] excluded freeze_phase counts: {'pre_freeze': 101}
+[F3] total manifest rows: 416; citable + excluded = 416
+"
+_manifest/scripts/compile_manifest_provenance.py,0,0.4314938810020976,False,,"PASS: generated PROVENANCE.md for _manifest
+"

@@ -1,0 +1,4 @@
+condition,test,statistic,df,p_value,p_value_scientific,n_total,n_types,effect_size_name,effect_size_definition,effect_size_value
+IC,Kruskal-Wallis,51.366883,9,0.000000,5.953702e-08,515,10,rank epsilon-squared (epsilon^2),"epsilon^2 = (H - k + 1) / (n - k), H = Kruskal-Wallis statistic, k = number of types, n = number of basins",0.083895
+seen-dPL,Kruskal-Wallis,31.416625,9,0.000251,2.510463e-04,515,10,rank epsilon-squared (epsilon^2),"epsilon^2 = (H - k + 1) / (n - k), H = Kruskal-Wallis statistic, k = number of types, n = number of basins",0.044389
+OOB-dPL,Kruskal-Wallis,36.160335,9,0.000037,3.713150e-05,515,10,rank epsilon-squared (epsilon^2),"epsilon^2 = (H - k + 1) / (n - k), H = Kruskal-Wallis statistic, k = number of types, n = number of basins",0.053783

@@ -1,0 +1,15 @@
+quantity,n_rows,max_abs_diff,max_abs_diff_sci,n_rows_agree_within_1e6
+vs_A_ci95_hi_basin,20,0.000000,4.944e-07,20
+vs_A_ci95_hi_wy,20,0.000000,4.845e-07,20
+vs_A_ci95_lo_basin,20,0.000000,4.553e-07,20
+vs_A_ci95_lo_wy,20,0.000000,4.976e-07,20
+vs_A_mean_diff,22,0.000000,4.909e-07,22
+vs_A_median_diff,22,0.000000,4.880e-07,22
+vs_A_wilcoxon_p,22,0.000000,4.545e-07,22
+vs_B2_ci95_hi_basin,20,0.000000,4.389e-07,20
+vs_B2_ci95_hi_wy,20,0.000000,4.961e-07,20
+vs_B2_ci95_lo_basin,20,0.000000,4.810e-07,20
+vs_B2_ci95_lo_wy,20,0.000000,4.707e-07,20
+vs_B2_mean_diff,22,0.000000,4.685e-07,22
+vs_B2_median_diff,22,0.000000,4.841e-07,22
+vs_B2_wilcoxon_p,22,0.000000,4.964e-07,22

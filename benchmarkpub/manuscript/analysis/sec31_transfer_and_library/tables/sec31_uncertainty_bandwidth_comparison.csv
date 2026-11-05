@@ -1,0 +1,10 @@
+condition,scheme,scheme_status,n_basins,bandwidth_definition,median_width,q25_width,q75_width,min_width,max_width,mean_width,std_width
+IC,1yr_block_bootstrap_primary,PRIMARY,531,best_model_point_kge_minus_q05_threshold,0.062335,0.044128,0.092390,0.015067,0.494780,0.077908,0.056061
+IC,leave_one_water_year_jackknife,SUPERSEDED,531,best_model_point_kge_minus_q05_threshold,0.014489,0.009696,0.023428,0.001617,0.116348,0.018617,0.013825
+IC,3yr_multiyear_block_bootstrap_c1,ACTIVE_ALTERNATIVE,531,best_model_point_kge_minus_q05_threshold,0.060395,0.038564,0.098258,0.000000,0.550679,0.080452,0.068791
+seen-dPL,1yr_block_bootstrap_primary,PRIMARY,531,best_model_point_kge_minus_q05_threshold,0.052384,0.037659,0.072977,0.007231,0.259992,0.061270,0.035735
+seen-dPL,leave_one_water_year_jackknife,SUPERSEDED,531,best_model_point_kge_minus_q05_threshold,0.011899,0.007965,0.017826,0.001753,0.090440,0.014528,0.010220
+seen-dPL,3yr_multiyear_block_bootstrap_c1,ACTIVE_ALTERNATIVE,531,best_model_point_kge_minus_q05_threshold,0.050075,0.033085,0.071289,0.003529,0.254841,0.058675,0.038205
+OOB-dPL,1yr_block_bootstrap_primary,PRIMARY,531,best_model_point_kge_minus_q05_threshold,0.057715,0.040891,0.080465,0.007339,0.476495,0.069816,0.049659
+OOB-dPL,leave_one_water_year_jackknife,SUPERSEDED,531,best_model_point_kge_minus_q05_threshold,0.013759,0.009060,0.020770,0.001692,0.118137,0.017208,0.012895
+OOB-dPL,3yr_multiyear_block_bootstrap_c1,ACTIVE_ALTERNATIVE,531,best_model_point_kge_minus_q05_threshold,0.053492,0.034062,0.085182,0.002194,0.461692,0.067325,0.051960

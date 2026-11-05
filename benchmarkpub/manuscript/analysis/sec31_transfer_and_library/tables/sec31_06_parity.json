@@ -1,0 +1,27 @@
+{
+  "script": "sec31_06_fold_composition.py",
+  "approach": "(a) Recomputed from OOB_FOLD_ASSIGNMENT.csv, gauge_locations_671.csv, and basin_attribute_table.csv",
+  "n_basins_total": 531,
+  "attributes_included": [
+    "lat",
+    "lon",
+    "arid",
+    "f_snow",
+    "runoff_ratio",
+    "p_mean",
+    "pet_mean",
+    "p_seas",
+    "elev",
+    "slope",
+    "area",
+    "f_forest",
+    "zero_flow_frac"
+  ],
+  "fold_counts": [
+    107,
+    106,
+    106,
+    106,
+    106
+  ]
+}

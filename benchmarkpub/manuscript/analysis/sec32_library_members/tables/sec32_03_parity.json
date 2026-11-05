@@ -1,0 +1,11 @@
+{
+  "script": "sec32_03_model_structural_attributes.py",
+  "approach": "(a) Compiled from model_complexity_inventory.csv and model_snow_annotation.csv",
+  "n_models": 36,
+  "n_models_with_snow": 8,
+  "min_params": 1,
+  "max_params": 15,
+  "median_params": 7.0,
+  "min_states": 1,
+  "max_states": 6
+}

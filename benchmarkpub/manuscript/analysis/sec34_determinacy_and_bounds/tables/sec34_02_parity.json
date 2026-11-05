@@ -1,0 +1,18 @@
+{
+  "script": "sec34_02_multiseed_dispersion.py",
+  "approach": "(b) Loaded frozen verified artifacts from dpl_multiseed_sensitivity_20260914",
+  "upstream_artifacts": [
+    {
+      "label": "table_q2_parameter_distance.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmark/manuscript/r3/dpl_multiseed_sensitivity_20260914/tables/table_q2_parameter_distance.csv",
+      "sha256": "a4280c2c26152e3000d49fd74cb6775411c95c6ed163f61f48044cc659aa3a73",
+      "mtime": "2026-09-15 01:07:54 UTC",
+      "bytes": 2037
+    }
+  ],
+  "n_models": 8,
+  "d_self_median_across_models": 0.056019800337504005,
+  "d_cross_median_across_models": 0.3766919430419079,
+  "self_to_cross_ratio_median": 0.1489399562819618,
+  "models_self_much_smaller_than_cross": 8
+}

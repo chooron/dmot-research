@@ -1,0 +1,7 @@
+entity_type,group_label,n_units,sum_delta_kge,share_of_total_delta
+all_total,all_531_basins_36_models,19116,1862.167320,1.000000
+model,worst_single_model (mopex1),1,80.606373,0.043286
+model,top_5_models,5,360.346117,0.193509
+model,top_10_models,10,676.123031,0.363084
+basin,worst_single_basin (14096850),1,53.164073,0.028550
+basin,top_5pct_basins (top 26 basins),26,637.708421,0.342455

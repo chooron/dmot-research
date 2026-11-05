@@ -1,0 +1,60 @@
+{
+  "script": "sec33_04_gset_and_regret.py",
+  "approach": "(b) Loaded frozen verified artifacts from oob36_gset_gate_20261001, oob36_paired_regret_20261003, pub_candidate_set_transfer_20260930",
+  "upstream_artifacts": [
+    {
+      "label": "gset_36_summary.json",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/oob36_gset_gate_20261001/tables/gset_36_summary.json",
+      "sha256": "c93209b819606a5d5b784b1c8c270789076d98ed6062e7f4f4d1c5e641cef15c",
+      "mtime": "2026-10-03 10:28:23 UTC",
+      "bytes": 1817
+    },
+    {
+      "label": "gset_36_A2d_per_seed.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/oob36_gset_gate_20261001/tables/gset_36_A2d_per_seed.csv",
+      "sha256": "1dbc098405138944868bf234e655afcbe17cfd77cd5f210b0fd8504a4088b988",
+      "mtime": "2026-10-03 10:28:23 UTC",
+      "bytes": 790
+    },
+    {
+      "label": "gset_36_A1b_per_seed.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/oob36_gset_gate_20261001/tables/gset_36_A1b_per_seed.csv",
+      "sha256": "86e002bc2def83c15a7747dfe13097cfce6ebc05e041b240dff3212f82ff399a",
+      "mtime": "2026-10-03 10:28:23 UTC",
+      "bytes": 800
+    },
+    {
+      "label": "parity_p1_seen36_per_seed.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/oob36_gset_gate_20261001/tables/parity_p1_seen36_per_seed.csv",
+      "sha256": "be21e479b72d23950c5ea8ee114ace21aa92656ccbf759234b53826188e7d055",
+      "mtime": "2026-10-03 10:28:23 UTC",
+      "bytes": 701
+    },
+    {
+      "label": "paired_regret_summary.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/oob36_paired_regret_20261003/tables/paired_regret_summary.csv",
+      "sha256": "e966dd57eb24a94d982a5d909f5ec429280ef8ab42f3e612114df6bd2dc185e6",
+      "mtime": "2026-10-03 10:29:34 UTC",
+      "bytes": 627
+    },
+    {
+      "label": "paired_regret_per_seed.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/oob36_paired_regret_20261003/tables/paired_regret_per_seed.csv",
+      "sha256": "0426f2e5c7b6af3b620578cb1ce35054082d98c8104340b7c56f74e887735be3",
+      "mtime": "2026-10-03 10:29:33 UTC",
+      "bytes": 6540
+    },
+    {
+      "label": "basin_specific_vs_global_topk.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_candidate_set_transfer_20260930/tables/basin_specific_vs_global_topk.csv",
+      "sha256": "54844ea6367cb4c1989d9fd81ce6a32c38d00cc62264f787456fff58d79a7235",
+      "mtime": "2026-09-30 08:37:47 UTC",
+      "bytes": 2934
+    }
+  ],
+  "A2d_main_G_set": 0.046103541675091,
+  "A1b_main_G_set": 0.02213062155854586,
+  "Seen_main_G_set": 0.1966363440506635,
+  "regret_diff_mean_A2d": -0.0024729562109913,
+  "k3_bs_minus_glob_cov_diff": 0.0790960451977401
+}

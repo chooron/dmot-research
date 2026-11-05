@@ -1,0 +1,5 @@
+subset_name,n_models,n_with_snow_routine,pct_with_snow_routine,params_mean,params_median,params_min,params_max,states_mean,states_median,states_min,states_max
+full_library_36,36,8,0.222222,7.527778,7.000000,1,15,3.055556,3.000000,1,6
+oob_100pct_cover_21,21,6,0.285714,7.857143,7.000000,4,15,3.190476,3.000000,1,5
+seen_top3_min_cover_13,13,5,0.384615,8.384615,7.000000,4,15,3.307692,2.000000,1,5
+seen_top5_min_cover_9,9,3,0.333333,8.777778,7.000000,4,15,3.111111,2.000000,1,5

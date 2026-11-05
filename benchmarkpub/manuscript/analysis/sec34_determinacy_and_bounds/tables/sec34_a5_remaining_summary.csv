@@ -1,0 +1,8 @@
+item,n_checks,max_abs_diff
+cluster_matching_count,2,0.000000
+cluster_matching_ids,1,0.000000
+cluster_validation_k3,8,0.000047
+cluster_validation_k5,8,0.000033
+coverage_ladder,8,0.000000
+fold_composition,1,0.000000
+penalty_concentration,2,0.000000

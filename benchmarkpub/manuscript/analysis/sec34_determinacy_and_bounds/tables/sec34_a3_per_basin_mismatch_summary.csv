@@ -1,0 +1,7 @@
+condition,n_rows,n_mismatch,max_abs_diff,table
+IC,531,0,0.000000,parsimony_diff_kge
+OOB-dPL,531,372,1.803092,parsimony_diff_kge
+seen-dPL,531,399,1.045137,parsimony_diff_kge
+IC,531,0,0.000000,dispersion_point_kge_range
+OOB-dPL,531,394,1.803092,dispersion_point_kge_range
+seen-dPL,531,409,0.959520,dispersion_point_kge_range

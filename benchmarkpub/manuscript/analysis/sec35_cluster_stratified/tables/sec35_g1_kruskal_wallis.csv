@@ -1,0 +1,2 @@
+test,statistic,df,p_value,p_value_scientific,n_total,n_types,effect_size_name,effect_size_definition,effect_size_value
+Kruskal-Wallis,29.691068,9,0.000495,4.950897e-04,515,10,rank epsilon-squared (epsilon^2),"epsilon^2 = (H - k + 1) / (n - k), H = Kruskal-Wallis statistic, k = number of types, n = number of basins",0.040972

@@ -1,0 +1,4 @@
+metric,rho_raw,p_raw,rho_partial,p_partial
+fold_instability,0.52184,0.0015,0.47366,0.0045
+param_displacement_rms,0.434953,0.007599,0.393002,0.018398
+total_displacement,0.66769,0.0002,0.629781,0.0002

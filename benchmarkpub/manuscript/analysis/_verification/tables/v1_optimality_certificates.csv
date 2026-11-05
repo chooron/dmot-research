@@ -1,0 +1,7 @@
+condition,target,need_basins,proven_minimum_models,budget_minus_1,max_basins_coverable_with_budget_minus_1,proves_q_impossible
+IC,0.95,505,4,3,495,True
+IC,1.0,531,9,8,529,True
+seen-dPL,0.95,505,6,5,500,True
+seen-dPL,1.0,531,14,13,530,True
+OOB-dPL,0.95,505,11,10,503,True
+OOB-dPL,1.0,531,19,18,530,True

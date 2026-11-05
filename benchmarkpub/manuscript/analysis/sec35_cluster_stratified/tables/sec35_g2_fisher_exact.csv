@@ -1,0 +1,2 @@
+n_top_defined,n_top_matched,n_top_unmatched,n_matched_total,n_types,exact_test_implementation,n_draws,seed,p_value_exact_monte_carlo,monte_carlo_standard_error,chi2_statistic_asymptotic,chi2_dof_asymptotic,p_value_chi2_asymptotic,observed_top26_counts
+26,25,1,515,10,Fisher-type exact test by Monte Carlo enumeration of the multivariate hypergeometric null (rng.choice without replacement; probability-ordering statistic; no conditioning beyond the fixed margins),100000,20261005,0.000480,0.000069,33.689064,9,0.000101,0:3|1:5|2:0|3:0|4:0|5:0|6:0|7:8|8:7|9:2

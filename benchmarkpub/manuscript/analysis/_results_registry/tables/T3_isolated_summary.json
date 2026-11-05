@@ -1,0 +1,16 @@
+{
+  "changed_inputs": [],
+  "compared_tables": 143,
+  "copy_deleted": true,
+  "failed_script_names": [],
+  "failed_scripts": 0,
+  "inconsistent_tables": 0,
+  "maximum_absolute_difference": "0",
+  "original_changed_tables": [],
+  "original_frozen_tables": 143,
+  "protected_inputs": 13067,
+  "recomputed_tables": 143,
+  "script_attempted": 60,
+  "script_total": 60,
+  "status": "DONE"
+}

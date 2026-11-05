@@ -1,0 +1,39 @@
+{
+  "script": "sec32_01_library_and_covers.py",
+  "approach": "(b) Loaded frozen verified artifacts from pub_minimal_model_library_20260930 and equiv_cover_t1t2_20261003",
+  "upstream_artifacts": [
+    {
+      "label": "library_model_frequency.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_minimal_model_library_20260930/tables/library_model_frequency.csv",
+      "sha256": "66401235ed38f3433e2dca9792fdbb67f0fa79e06427c8d5568207e952f8b05e",
+      "mtime": "2026-09-30 08:56:02 UTC",
+      "bytes": 3082
+    },
+    {
+      "label": "library_minimum_cover.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_minimal_model_library_20260930/tables/library_minimum_cover.csv",
+      "sha256": "1bc44e4cbcdb5fbea534fe946802e48a11c766435d522c408483d0546bb17f38",
+      "mtime": "2026-09-30 08:56:02 UTC",
+      "bytes": 900
+    },
+    {
+      "label": "minimal_model_library.json",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_minimal_model_library_20260930/tables/minimal_model_library.json",
+      "sha256": "4d2d9e633962729a9109e1c85cc1ec00cb80c22907d21a169bb2f129144b9edb",
+      "mtime": "2026-09-30 08:56:03 UTC",
+      "bytes": 14441
+    },
+    {
+      "label": "t1_min_cover.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_min_cover.csv",
+      "sha256": "c109349cfe993f7d15b8ac4948a1c129f9bf1e975df6c2cb0fe59e0f3ef88809",
+      "mtime": "2026-10-03 13:41:34 UTC",
+      "bytes": 923
+    }
+  ],
+  "top3_union_size": 36,
+  "top5_union_size": 36,
+  "top3_min_cover_exact_size": 13,
+  "top5_min_cover_exact_size": 9,
+  "oob_full_cover_exact_size": 21
+}

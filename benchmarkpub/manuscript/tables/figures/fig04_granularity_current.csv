@@ -1,0 +1,4 @@
+metric,value
+global_rank_spearman,0.9606177606177606
+basin_rank_spearman_median,0.7225225225225227
+winner_retention,0.2335216572504708

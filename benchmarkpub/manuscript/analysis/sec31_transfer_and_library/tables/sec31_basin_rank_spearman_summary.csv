@@ -1,0 +1,2 @@
+n_basins,spearman_median,spearman_ci95_lo,spearman_ci95_hi,spearman_mean,spearman_q25,spearman_q75,spearman_p05,spearman_p95,frac_gt_0,frac_ge_0p5,kendall_median
+531,0.726126,0.704479,0.751634,0.659599,0.531918,0.845817,0.110811,0.945689,0.975518,0.777778,0.552381

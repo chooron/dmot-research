@@ -1,0 +1,4 @@
+x_quantity,y_quantity,n_models,spearman_rho,spearman_p_analytic,spearman_p_permutation,pearson_r,pearson_p,direction,band_high_mean,band_low_mean,band_mid_mean,interpretation
+n_parameters,param_fold_instability_median,36,0.521840,0.001098,0.001500,0.173298,0.312128,positive,0.108380,0.086710,0.095957,fold-to-fold variability (per-parameter RMS)
+n_parameters,param_displacement_median,36,0.434953,0.008024,0.007599,0.209635,0.219781,positive,0.116240,0.098599,0.114436,seen->OOB displacement (per-parameter RMS)
+n_parameters,param_displacement_euclid_median,36,0.667690,0.000009,0.000200,0.528333,0.000926,positive,0.384748,0.215523,0.306224,seen->OOB displacement (total Euclidean)

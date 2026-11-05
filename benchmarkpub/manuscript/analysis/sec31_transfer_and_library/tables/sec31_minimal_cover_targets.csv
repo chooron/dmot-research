@@ -1,0 +1,10 @@
+condition,target,need_basins,n_models_exact,n_models_greedy,exact_models,solver_status,proven_optimal
+IC,0.900000,478,3,3,gr4j|hbv96|mopex5,0,True
+IC,0.950000,505,4,4,flexis|gr4j|hbv96|mopex5,0,True
+IC,1.000000,531,9,9,alpine2|flexis|gr4j|hbv96|hillslope|modhydrolog|mopex5|tcm|us1,0,True
+seen-dPL,0.900000,478,3,3,hbv96|mopex5|xinanjiang,0,True
+seen-dPL,0.950000,505,6,6,alpine2|flexis|hbv96|hymod|mopex5|xinanjiang,0,True
+seen-dPL,1.000000,531,14,14,alpine1|alpine2|australia|flexis|gr4j|gsfb|hbv96|hymod|modhydrolog|mopex4|mopex5|plateau|tank|xinanjiang,0,True
+OOB-dPL,0.900000,478,8,8,collie3|flexis|hbv96|mopex3|mopex5|plateau|simhyd|topmodel,0,True
+OOB-dPL,0.950000,505,11,11,alpine2|flexis|hbv96|hymod|mopex3|mopex5|plateau|simhyd|susannah1|topmodel|xinanjiang,0,True
+OOB-dPL,1.000000,531,19,20,alpine2|collie3|flexis|gr4j|gsfb|hbv96|hymod|ihacres|mopex3|mopex4|mopex5|plateau|simhyd|susannah1|tank|tcm|topmodel|us1|xinanjiang,0,True

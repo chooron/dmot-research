@@ -1,0 +1,10 @@
+condition,target,target_pct,need_basins,n_models_1yr_block_bootstrap,n_models_3yr_block_bootstrap,diff_3yr_minus_1yr,median_size_1yr_boot,median_size_3yr_boot,optimality_certified
+IC,0.900000,90%,478,3,3,0,7.000000,6.000000,True
+IC,0.950000,95%,505,4,4,0,7.000000,6.000000,True
+IC,1.000000,100%,531,9,11,2,7.000000,6.000000,True
+seen-dPL,0.900000,90%,478,3,5,2,4.000000,4.000000,True
+seen-dPL,0.950000,95%,505,6,7,1,4.000000,4.000000,True
+seen-dPL,1.000000,100%,531,14,17,3,4.000000,4.000000,True
+OOB-dPL,0.900000,90%,478,8,9,1,4.000000,4.000000,True
+OOB-dPL,0.950000,95%,505,11,12,1,4.000000,4.000000,True
+OOB-dPL,1.000000,100%,531,19,22,3,4.000000,4.000000,True

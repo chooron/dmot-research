@@ -1,0 +1,19 @@
+{
+  "script": "sec33_03_fixed_ensemble_scan_t3_2.py",
+  "approach": "(a) Recomputed from cached OOB cube and fold Qsim",
+  "k_values": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    7,
+    10
+  ],
+  "n_basins": 531,
+  "kge_k1_median": 0.6634766740693108,
+  "kge_k3_median": 0.6774031308005715,
+  "kge_k5_median": 0.6664913945720143,
+  "diff_k3_mean": 0.010870609483955913,
+  "diff_k5_mean": -0.0020539549815887736
+}

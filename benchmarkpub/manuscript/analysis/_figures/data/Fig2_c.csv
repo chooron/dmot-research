@@ -1,0 +1,14 @@
+strategy,k,coverage_top1,regret_median
+basin_specific,1,0.252354,0.042806
+basin_specific,2,0.408663,0.014033
+basin_specific,3,0.502825,0.000000
+basin_specific,4,0.574388,0.000000
+basin_specific,5,0.627119,0.000000
+basin_specific,6,0.685499,0.000000
+basin_specific,7,0.721281,0.000000
+basin_specific,8,0.755179,0.000000
+basin_specific,9,0.787194,0.000000
+basin_specific,10,0.804143,0.000000
+basin_specific,15,0.894539,0.000000
+basin_specific,20,0.939736,0.000000
+basin_specific,36,1.000000,0.000000

@@ -1,0 +1,28 @@
+{
+  "script": "sec34_01_complexity_vs_instability.py",
+  "approach": "(b) Loaded frozen verified artifacts from pub_parsimony_complexity_20260930",
+  "upstream_artifacts": [
+    {
+      "label": "complexity_vs_transfer.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_parsimony_complexity_20260930/tables/complexity_vs_transfer.csv",
+      "sha256": "b80af3b339f72f5be357b47c0ea723dd3217067f463c0334d563a68fae1956d6",
+      "mtime": "2026-09-30 12:33:21 UTC",
+      "bytes": 2418
+    },
+    {
+      "label": "parameter_instability_vs_oob_loss.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_parsimony_complexity_20260930/tables/parameter_instability_vs_oob_loss.csv",
+      "sha256": "99e0988448833e9cb018d49dcf655aebd25ec12af509b9526132fee9dbe9064a",
+      "mtime": "2026-09-30 12:34:15 UTC",
+      "bytes": 1551
+    }
+  ],
+  "nparam_vs_fold_instability_rho": 0.5218397458895929,
+  "nparam_vs_fold_instability_perm_p": 0.0014998500149985,
+  "nparam_vs_disp_rms_rho": 0.4349530385724854,
+  "nparam_vs_disp_rms_perm_p": 0.0075992400759924,
+  "nparam_vs_disp_euclid_rho": 0.6676899287253352,
+  "nparam_vs_disp_euclid_perm_p": 0.0001999800019998,
+  "pooled_disp_vs_loss_rho": 0.2612392655413816,
+  "model_median_disp_vs_loss_rho": 0.3459459459459459
+}

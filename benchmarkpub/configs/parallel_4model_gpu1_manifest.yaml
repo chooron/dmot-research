@@ -1,0 +1,163 @@
+protocol_version: canonical_dpl_v2_20260924_specialization
+git_sha: 3caca37a4243ae0a95ebe9cc4f22998672ddf464
+seed: 42
+concurrency: 2
+device: cuda:1
+description: 'Canonical dPL v2 4-Model Two-Stage Specialization Run on GPU:1 (gr4j, hbv96, xinanjiang, mopex5)'
+
+jobs:
+  - model: gr4j
+    n_params: 4
+    horizon_days: 1095
+    warmup_days: 730
+    scored_days: 365
+    warmup_grad_mode: detach
+    mapping: auto
+    optimizer: AdamW
+    lr: 0.001
+    weight_decay: 0.0001
+    clip_norm: 1.0
+    seed: 42
+    epochs: 100
+    min_epochs: 50
+    patience: 10
+    plateau_eps: 0.0001
+    batch_size: 50
+    steps_per_epoch: 169
+    basin_split:
+      enabled: true
+      manifest: benchmarkpub/configs/canonical_v2_oob_5fold_split.yaml
+      fold: 0
+    specialization:
+      enabled: true
+      method: rank_sigmoid
+      warmup: 10
+      ramp: 10
+      freeze: 50
+      ema_beta: 0.9
+      update_interval: 2
+      rank_center: 0.5
+      rank_temperature: 0.1
+      min_weight: 0.2
+      ess_floor: 0.5
+      seed: 42
+      min_valid_observations: 10
+      required_basin_fraction: 0.8
+    selection_metric: internal_validation_mean_kge
+
+  - model: hbv96
+    n_params: 15
+    horizon_days: 1095
+    warmup_days: 730
+    scored_days: 365
+    warmup_grad_mode: detach
+    mapping: auto
+    optimizer: AdamW
+    lr: 0.001
+    weight_decay: 0.0001
+    clip_norm: 1.0
+    seed: 42
+    epochs: 100
+    min_epochs: 50
+    patience: 10
+    plateau_eps: 0.0001
+    batch_size: 50
+    steps_per_epoch: 169
+    basin_split:
+      enabled: true
+      manifest: benchmarkpub/configs/canonical_v2_oob_5fold_split.yaml
+      fold: 0
+    specialization:
+      enabled: true
+      method: rank_sigmoid
+      warmup: 10
+      ramp: 10
+      freeze: 50
+      ema_beta: 0.9
+      update_interval: 2
+      rank_center: 0.5
+      rank_temperature: 0.1
+      min_weight: 0.2
+      ess_floor: 0.5
+      seed: 42
+      min_valid_observations: 10
+      required_basin_fraction: 0.8
+    selection_metric: internal_validation_mean_kge
+
+  - model: xinanjiang
+    n_params: 12
+    horizon_days: 1095
+    warmup_days: 730
+    scored_days: 365
+    warmup_grad_mode: detach
+    mapping: auto
+    optimizer: AdamW
+    lr: 0.001
+    weight_decay: 0.0001
+    clip_norm: 1.0
+    seed: 42
+    epochs: 100
+    min_epochs: 50
+    patience: 10
+    plateau_eps: 0.0001
+    batch_size: 50
+    steps_per_epoch: 169
+    basin_split:
+      enabled: true
+      manifest: benchmarkpub/configs/canonical_v2_oob_5fold_split.yaml
+      fold: 0
+    specialization:
+      enabled: true
+      method: rank_sigmoid
+      warmup: 10
+      ramp: 10
+      freeze: 50
+      ema_beta: 0.9
+      update_interval: 2
+      rank_center: 0.5
+      rank_temperature: 0.1
+      min_weight: 0.2
+      ess_floor: 0.5
+      seed: 42
+      min_valid_observations: 10
+      required_basin_fraction: 0.8
+    selection_metric: internal_validation_mean_kge
+
+  - model: mopex5
+    n_params: 12
+    horizon_days: 1095
+    warmup_days: 730
+    scored_days: 365
+    warmup_grad_mode: detach
+    mapping: auto
+    optimizer: AdamW
+    lr: 0.001
+    weight_decay: 0.0001
+    clip_norm: 1.0
+    seed: 42
+    epochs: 100
+    min_epochs: 50
+    patience: 10
+    plateau_eps: 0.0001
+    batch_size: 50
+    steps_per_epoch: 169
+    basin_split:
+      enabled: true
+      manifest: benchmarkpub/configs/canonical_v2_oob_5fold_split.yaml
+      fold: 0
+    specialization:
+      enabled: true
+      method: rank_sigmoid
+      warmup: 10
+      ramp: 10
+      freeze: 50
+      ema_beta: 0.9
+      update_interval: 2
+      rank_center: 0.5
+      rank_temperature: 0.1
+      min_weight: 0.2
+      ess_floor: 0.5
+      seed: 42
+      min_valid_observations: 10
+      required_basin_fraction: 0.8
+    selection_metric: internal_validation_mean_kge

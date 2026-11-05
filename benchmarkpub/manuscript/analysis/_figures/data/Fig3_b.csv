@@ -1,0 +1,14 @@
+rule_label,rule_family,k,vs_B2_mean_diff,vs_B2_median_diff,vs_B2_ci95_lo_basin,vs_B2_ci95_hi_basin,vs_B2_wilcoxon_p
+Rule A (k=1 global single best),A,1,-0.014966,-0.011325,-0.021161,-0.008657,0.000013
+Rule B (k=1 fixed global ensemble),B,1,-0.014966,-0.011325,-0.021779,-0.008345,0.000013
+Rule B (k=2 fixed global ensemble),B,2,0.000000,0.000000,0.000000,0.000000,1.000000
+Rule B (k=3 fixed global ensemble),B,3,-0.004095,-0.004629,-0.007646,-0.000370,0.000191
+Rule B (k=4 fixed global ensemble),B,4,-0.013236,-0.010252,-0.023275,-0.005531,0.000000
+Rule B (k=5 fixed global ensemble),B,5,-0.017020,-0.014266,-0.025564,-0.009681,0.000000
+Rule B (k=7 fixed global ensemble),B,7,-0.012213,-0.016019,-0.019605,-0.005006,0.000000
+Rule B (k=10 fixed global ensemble),B,10,-0.019414,-0.024242,-0.027934,-0.010147,0.000000
+Rule C (k=2 attribute-conditioned ensemble),C,2,-0.006663,0.000000,-0.017829,0.002238,0.385210
+Rule C (k=3 attribute-conditioned ensemble),C,3,-0.003147,-0.003416,-0.011368,0.004559,0.087754
+Rule C (k=5 attribute-conditioned ensemble),C,5,-0.005080,-0.006262,-0.012767,0.002198,0.011151
+Rule D (A2d k=3 candidate set selection),D,3,0.033577,0.018941,0.026235,0.040881,0.000000
+Rule E (36-model upper bound oracle),E,36,0.093950,0.046418,0.081494,0.108638,0.000000

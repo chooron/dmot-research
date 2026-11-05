@@ -1,0 +1,16 @@
+variable,label,source,spearman_rho,perm_p,n_used,bh_fdr_q,abs_rho
+arid,aridity index (PET/P),caravan_671_attributes,0.119781,0.005999,531,0.075367,0.119781
+q_mean,mean observed discharge (mm/day),observed series,-0.104121,0.015298,531,0.075367,0.104121
+s_cond,soil conductivity,caravan_671_attributes,0.103176,0.015198,531,0.075367,0.103176
+runoff_ratio,runoff ratio q_mean/p_mean,observed series + attribute,-0.100704,0.020098,531,0.075367,0.100704
+pet_mean,mean PET (mm/day),caravan_671_attributes,0.090218,0.037996,531,0.113989,0.090218
+zero_flow_frac,fraction of days with zero discharge,observed series,0.073915,0.088091,531,0.220228,0.073915
+p_seas,precipitation seasonality,caravan_671_attributes,-0.062639,0.151985,531,0.325682,0.062639
+f_forest,forest fraction,caravan_671_attributes,-0.056361,0.192081,531,0.360151,0.056361
+f_snow,snowfall fraction,caravan_671_attributes,-0.052377,0.230977,531,0.384962,0.052377
+p_mean,mean precipitation (mm/day),caravan_671_attributes,-0.037158,0.393161,531,0.569125,0.037158
+area,catchment area (km2),caravan_671_attributes,0.035129,0.417358,531,0.569125,0.035129
+q_cv,coefficient of variation of discharge,observed series,0.017037,0.695730,531,0.759138,0.017037
+q_log_sd,SD of log(Q + eps),observed series,-0.016595,0.707029,531,0.759138,0.016595
+slope,mean slope,caravan_671_attributes,0.016222,0.708529,531,0.759138,0.016222
+elev,mean elevation (m),caravan_671_attributes,0.008634,0.841316,531,0.841316,0.008634

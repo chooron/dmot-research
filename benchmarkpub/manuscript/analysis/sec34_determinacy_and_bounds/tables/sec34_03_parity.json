@@ -1,0 +1,12 @@
+{
+  "script": "sec34_03_penalty_concentration.py",
+  "approach": "(a) Recomputed from pub_same_pipeline_model_basin.csv",
+  "top5pct_basin_share": 0.3424549526043555,
+  "frozen_top5pct_basin_share": 0.34245495260435554,
+  "top5pct_basin_share_abs_diff": 5.551115123125783e-17,
+  "top5_model_share": 0.19350899001714345,
+  "frozen_top5_model_share": 0.19350899001714347,
+  "top5_model_share_abs_diff": 2.7755575615628914e-17,
+  "worst_model": "mopex1",
+  "worst_model_share": 0.04328632139013424
+}

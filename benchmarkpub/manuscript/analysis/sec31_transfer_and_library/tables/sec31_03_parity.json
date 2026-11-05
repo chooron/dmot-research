@@ -1,0 +1,11 @@
+{
+  "script": "sec31_03_rank_preservation.py",
+  "approach": "(a) Recomputed from pub_same_pipeline_model_basin.csv and seen_ic_oob_merged.parquet",
+  "global_spearman_canonical_recomputed": 0.9701415701415703,
+  "global_spearman_canonical_frozen": 0.9701415701415702,
+  "global_spearman_canonical_abs_diff": 1.1102230246251565e-16,
+  "global_spearman_samepipeline_recomputed": 0.9760617760617762,
+  "basin_median_spearman_recomputed": 0.7261261261261261,
+  "basin_median_spearman_frozen": 0.7261261261261261,
+  "basin_median_spearman_abs_diff": 0.0
+}

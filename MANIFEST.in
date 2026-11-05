@@ -1,0 +1,6 @@
+include README.md
+include CITATION_DRAFT.md RIGHTS_REVIEW.md RELEASE_MANIFEST.json
+recursive-include docs *.md *.csv
+recursive-include examples *.py
+recursive-include dmotpy/tests *.py
+recursive-include dmotpy/validation_results *.csv *.md

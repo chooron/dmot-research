@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dmotpy"
+version = "1.0.0rc1"
+description = "Differentiable PyTorch implementations of conceptual rainfall-runoff model variants"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch==2.9.1"]
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Science/Research",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Topic :: Scientific/Engineering :: Hydrology",
+]
+# License/authorship fields are intentionally absent pending rights-holder review.
+
+[project.optional-dependencies]
+analysis = ["numpy", "scipy", "pandas"]
+training = ["dmg>=1.4.0"]
+test = ["pytest==9.1.1"]
+dev = ["numpy", "scipy", "pandas", "dmg>=1.4.0", "pytest==9.1.1"]
+
+[tool.setuptools]
+include-package-data = false
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["dmotpy*"]
+exclude = ["dmotpy.tests*", "dmotpy.models.unithydro.test*"]
+
+[tool.setuptools.package-data]
+dmotpy = ["validation_results/**/*.csv", "validation_results/**/*.md"]

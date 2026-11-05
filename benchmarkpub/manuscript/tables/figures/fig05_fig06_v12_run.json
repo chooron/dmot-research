@@ -1,0 +1,20 @@
+{
+  "figures": [
+    "fig5_usage_rules",
+    "fig6_selection_criteria"
+  ],
+  "script_sha256": {
+    "hydrofig.py": "496c88cd8c8beb1db7b0c635ff42af19950bf497146f23cc5b5e9238d6000dee",
+    "make_fig05.py": "b1c227dc1d45b242fd59dd7850be3a4e230e48f056077c9fff6db9d29fe26334",
+    "make_fig06.py": "3036bce2a24548854ba3edbb5c37415b4108e6a216ff550dd4c0edd6a94c3954"
+  },
+  "stats_sha256": "55ce5cf85fca260b065710fb59c72bf471274c71d7e1adb07988f1996a09ac5e",
+  "coordinates_sha256": "c508687822369792f2af3176be4db323c282e3d70245ba573775a0a5f74cede5",
+  "text_overlap_audit": "tables/figures/fig05_fig06_text_overlap_v12.csv",
+  "outputs": [
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig5_usage_rules.png",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig5_usage_rules.pdf",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig6_selection_criteria.png",
+    "/home/jingxin/code/dmot-research/benchmarkpub/manuscript/figures/fig6_selection_criteria.pdf"
+  ]
+}

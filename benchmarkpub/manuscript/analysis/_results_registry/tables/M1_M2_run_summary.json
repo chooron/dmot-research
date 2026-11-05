@@ -1,0 +1,58 @@
+{
+  "added_claims": 11,
+  "audits": {
+    "C2-01": "PASS",
+    "C2-02": "PASS",
+    "C2-03": "PASS",
+    "C2-04": "PASS",
+    "C2-05": "PASS",
+    "C2-06": "PASS",
+    "C2-07": "PASS",
+    "C2-08": "PASS",
+    "C2-09": "PASS",
+    "C2-10": "PASS"
+  },
+  "baseline_rows": 179,
+  "changed_inputs": 0,
+  "decision_types": {
+    "loaded_source": 8,
+    "missing_primary_or_secondary": 20,
+    "multi_spec_selection": 14
+  },
+  "disposition_counts": {
+    "mapped": 11,
+    "removed_declaration": 2
+  },
+  "estimator_scripts_run": false,
+  "executed_scripts": [
+    "build_results_artifacts.py",
+    "build_evidence_packet.py",
+    "close_registry_m1_m2.py",
+    "finalize_registry_t1_t2.py"
+  ],
+  "execution_scope": "registry_pipeline_only",
+  "metadata_resolutions": 11,
+  "open_decisions": 42,
+  "protected_inputs": 13069,
+  "registry_rows": 190,
+  "removed_claims": 0,
+  "undecided": 0,
+  "venues": {
+    "R1": {
+      "main_text": 31,
+      "si": 15
+    },
+    "R2": {
+      "main_text": 26,
+      "si": 3
+    },
+    "R3": {
+      "main_text": 22,
+      "si": 17
+    },
+    "R4": {
+      "main_text": 23,
+      "si": 53
+    }
+  }
+}

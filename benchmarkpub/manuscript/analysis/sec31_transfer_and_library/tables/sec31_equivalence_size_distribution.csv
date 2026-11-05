@@ -1,0 +1,4 @@
+condition,n_basins,median_size,q25_size,q75_size,mean_size,min_size,max_size,n_singleton
+IC,531,7.000000,4.000000,15.000000,10.035782,1,35,36
+seen-dPL,531,4.000000,3.000000,7.000000,5.758945,1,32,47
+OOB-dPL,531,4.000000,2.000000,6.000000,5.032015,1,35,56

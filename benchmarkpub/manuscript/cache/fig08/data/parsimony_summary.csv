@@ -1,0 +1,4 @@
+condition,n_basins,n_coincided,frac_coincided,n_ties_broken_min_params,subtraction_order,mean_diff_kge,median_diff_kge,ci95_lo_basin_boot,ci95_hi_basin_boot,wilcoxon_stat,wilcoxon_p,param_diff_median,param_diff_q25,param_diff_q75,param_diff_mean,join_method
+IC,531,76,0.143126,135,ranking_member_minus_parsimonious_member,0.010473,0.002676,0.007348,0.013873,33468.0,0.0,8.0,5.0,10.0,6.817326,basin_id_keyed
+seen-dPL,531,62,0.116761,79,ranking_member_minus_parsimonious_member,0.011667,0.009155,0.008568,0.014891,33317.0,0.0,8.0,3.0,11.0,6.94162,basin_id_keyed
+OOB-dPL,531,100,0.188324,75,ranking_member_minus_parsimonious_member,0.006157,0.0,0.002433,0.00979,35554.0,2.1e-05,6.0,2.5,9.0,5.757062,basin_id_keyed

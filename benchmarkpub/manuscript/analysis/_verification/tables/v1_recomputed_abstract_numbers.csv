@@ -1,0 +1,10 @@
+quantity_name,condition,recomputed_value,existing_value,abs_diff,optimality_evidence
+cover95_model_count_IC,IC,4.0,4.0,0.0,Budget 3 covers max 495 / 505 needed
+cover95_model_count_seen_dpl,seen-dPL,6.0,6.0,0.0,Budget 5 covers max 500 / 505 needed
+cover95_model_count_oob_dpl,OOB-dPL,11.0,12.0,1.0,Budget 11 covers max 503 / 505 needed
+cover100_model_count_IC,IC,9.0,9.0,0.0,Budget 8 covers max 529 / 531 needed
+cover100_model_count_seen_dpl,seen-dPL,14.0,14.0,0.0,Budget 13 covers max 530 / 531 needed
+cover100_model_count_oob_dpl,OOB-dPL,19.0,21.0,2.0,Budget 20 covers max 530 / 531 needed
+fixed_global_k2_vs_k1_paired_diff_median,OOB-dPL (evaluated on held-out),0.011325257049407012,0.011325,2.5704940701150314e-07,Recomputed via daily ensemble series mean KGE on training-fold selected members
+full_36_model_oracle_kge_median,OOB-dPL (held-out max),0.7470654542102473,0.7462711677,0.0007942865102472663,Max KGE across all 36 models per basin
+delta_kge_pub_pooled_median,OOB-36 same-pipeline,0.04433504782129948,0.0433943064,0.0009407414212994833,"Median over 19,116 cells (seenfolds_median4 - kge_heldout)"

@@ -1,0 +1,4 @@
+metric_name,metric_description,n_models,recomputed_spearman_rho,existing_spearman_rho,abs_diff_spearman_rho,recomputed_p_permutation,existing_p_permutation,abs_diff_p_permutation,n_permutations,seed,input_source
+param_fold_instability_median,Fold instability (per-param RMS),36,0.521840,0.521840,0.000000,0.001500,0.001500,0.000000,10000,20260930,params/*.npz (theta_norm arrays; 36 models)
+param_displacement_median,Seen->OOB disp (per-param RMS),36,0.434953,0.434953,0.000000,0.007599,0.007599,0.000000,10000,20260930,params/*.npz (theta_norm arrays; 36 models)
+param_displacement_euclid_median,Seen->OOB disp (total Euclid),36,0.667690,0.667690,0.000000,0.000200,0.000200,0.000000,10000,20260930,params/*.npz (theta_norm arrays; 36 models)

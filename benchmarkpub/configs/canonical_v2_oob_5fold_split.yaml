@@ -1,0 +1,14 @@
+# Frozen basin-role definition for canonical v2 engineering OOB runs.
+# The fold assignment reuses the repository's existing PRIMARY-8 OOB contract;
+# no historical KGE or winner result is used here.
+split_id: canonical_v2_oob_5fold_20260902
+basin_universe: data/531sub_id.txt
+assignment:
+  algorithm: sklearn_kfold_compatible
+  n_folds: 5
+  shuffle: true
+  random_state: 20260902
+  sha256: fe9013bcd7155ea99ac85597e59ea5e417a13897dc08aaa69f2c63ddb6780085
+role_policy:
+  # For outer fold k, internal validation is fold (k + 1) mod 5.
+  internal_validation: next_fold

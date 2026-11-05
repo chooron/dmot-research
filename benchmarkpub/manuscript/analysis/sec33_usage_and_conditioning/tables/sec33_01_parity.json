@@ -1,0 +1,51 @@
+{
+  "script": "sec33_01_usage_rules_t2.py",
+  "approach": "(b) Loaded frozen verified artifacts from equiv_cover_t1t2_20261003",
+  "upstream_artifacts": [
+    {
+      "label": "t2_rule_summary.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t2_rule_summary.csv",
+      "sha256": "af7909e8deeff7e24eae25faa0c142de9055fa6f630584d3cddab1fd37c9b706",
+      "mtime": "2026-10-03 13:45:30 UTC",
+      "bytes": 9844
+    },
+    {
+      "label": "t2_rule_per_basin.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t2_rule_per_basin.csv",
+      "sha256": "5e1da06fb21e16d4ed77d13e62aa63a5062969afb8d9224cef92ab3ed7ec13a9",
+      "mtime": "2026-10-03 13:45:30 UTC",
+      "bytes": 1484215
+    },
+    {
+      "label": "t2_set_construction_check.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t2_set_construction_check.csv",
+      "sha256": "da965dc80d827bac4ee3b20889671de445b647edc940a01c897da1586dcab3f8",
+      "mtime": "2026-10-03 13:45:30 UTC",
+      "bytes": 328
+    },
+    {
+      "label": "t2_leakage_check.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t2_leakage_check.csv",
+      "sha256": "a76de0dd137b8917953898c7e1e75cca6772de863f5fb60a826a292a19402b83",
+      "mtime": "2026-10-03 13:45:30 UTC",
+      "bytes": 132
+    }
+  ],
+  "rules_evaluated": [
+    "A",
+    "B",
+    "C_A1b",
+    "C_A2d",
+    "D_A1b",
+    "D_A2d",
+    "E"
+  ],
+  "k_values": [
+    1,
+    3,
+    5,
+    36
+  ],
+  "n_summary_rows": 44,
+  "n_per_basin_rows": 23364
+}

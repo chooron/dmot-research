@@ -1,0 +1,5 @@
+table,slice,tested_column,n_rows_checked,n_mismatches,max_abs_diff,max_abs_diff_sci,status
+sec33_rule_c_k2_k5_per_basin.csv,k=2,kge,5310,0,0.000000,4.999e-07,PASS
+sec33_rule_c_k2_k5_per_basin.csv,k=2,diff_vs_A,5310,0,0.000000,4.999e-07,PASS
+sec33_rule_c_k2_k5_per_basin.csv,k=5,kge,5310,0,0.000000,4.999e-07,PASS
+sec33_rule_c_k2_k5_per_basin.csv,k=5,diff_vs_A,5310,0,0.000000,4.998e-07,PASS

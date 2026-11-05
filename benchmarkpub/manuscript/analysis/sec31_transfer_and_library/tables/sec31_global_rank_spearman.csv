@@ -1,0 +1,3 @@
+seen_definition,n_models,spearman_rho,source_frozen_reference,frozen_value,abs_diff
+crosspipeline_canonical_dpl,36,0.970142,preliminary_statistics.json (Q3_ranking.spearman_model_median_seen_vs_oob),0.970142,0.000000
+samepipeline_kge_seenfolds_median4,36,0.976062,pub_same_pipeline_model_basin.csv (kge_seenfolds_median4),0.976062,0.000000

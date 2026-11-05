@@ -1,0 +1,4 @@
+condition,uncertainty_convention,n_basins,median_size,q25_size,q75_size,mean_size,min_size,max_size,n_singleton
+IC,leave_one_water_year_jackknife,531,2.000000,1.000000,3.000000,2.629002,1,24,238
+seen-dPL,leave_one_water_year_jackknife,531,1.000000,1.000000,2.000000,1.570621,1,8,335
+OOB-dPL,leave_one_water_year_jackknife,531,1.000000,1.000000,2.000000,1.536723,1,10,344

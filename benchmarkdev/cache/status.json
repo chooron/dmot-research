@@ -1,0 +1,50 @@
+{
+  "C0": {
+    "stage": "C0",
+    "status": "NOT_AVAILABLE",
+    "reason": "Zenodo record to git commit binding not found in local citation/release manifests; release package lacks a commit binding. No worktree/old-output comparison was fabricated.",
+    "source": "data/C0_version_parity.csv"
+  },
+  "A": {
+    "stage": "A",
+    "status": "PARTIAL",
+    "reason": "Public model smoke probes and file inventory completed; historical scripts not individually runtime-tested.",
+    "source": "data/A_assets.csv"
+  },
+  "C1": {
+    "stage": "C1",
+    "status": "DONE",
+    "reason": "Code-introspected public registry and transitive flux imports; no hand-filled metadata.",
+    "source": "tables/C1_model_catalogue.csv"
+  },
+  "C8": {
+    "stage": "C8",
+    "status": "PARTIAL",
+    "reason": "P2 original selector reused and historical values checked; guarded rerun best metrics reported separately; detailed guard events absent.",
+    "source": "data/C8_dpl_demo.csv"
+  },
+  "C5": {
+    "stage": "C5",
+    "status": "PARTIAL",
+    "reason": "Archived tables preserved with explicit not-reproduced status.",
+    "source": "data/C5_reproduction.csv"
+  },
+  "C4": {
+    "stage": "C4",
+    "status": "PARTIAL",
+    "reason": "Dimensional substeps with N=1 bit-exact gate for simple explicit maps; routed/calendar models excluded. Internal flux/RK2/implicit-Euler comparisons incomplete.",
+    "source": "data/C4_discretization.csv"
+  },
+  "C2": {
+    "stage": "C2",
+    "status": "PARTIAL",
+    "reason": "Measured available pre/post routing closure and impulse-response kernel mass; specialized GR4J exchange observer/TN comparison incomplete.",
+    "source": "data/C2_water_balance.csv"
+  },
+  "C3": {
+    "stage": "C3",
+    "status": "FAIL",
+    "reason": "Full-output gradcheck; persistent analytic left/right derivative jumps excluded at point level; fixed tolerances unchanged. Canonical table has one row per model, point and parameter; FD detail retained separately.",
+    "source": "data/C3_gradcheck.csv"
+  }
+}

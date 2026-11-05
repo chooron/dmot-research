@@ -1,0 +1,17 @@
+# Merge this subsection into one canonical_v2 job config.
+specialization:
+  enabled: false
+  # equal = explicit all-one reducer; rank_sigmoid = Method B;
+  # permuted_null = Method N using the same rank-derived weight multiset.
+  method: equal
+  warmup: 10
+  ramp: 10
+  freeze: null
+  ema_beta: 0.9
+  update_interval: 2
+  rank_center: 0.5
+  rank_temperature: 0.1
+  min_weight: 0.2
+  # ESS floor is ESS / number_of_training_basins.
+  ess_floor: 0.5
+  seed: 42

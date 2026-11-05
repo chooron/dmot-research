@@ -1,0 +1,18 @@
+{
+  "script": "sec34_04_attribute_screening.py",
+  "approach": "(b) Loaded frozen verified artifacts from pub_next_stage_20260930",
+  "upstream_artifacts": [
+    {
+      "label": "basin_attribute_screening.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/chapter4_oob36_prelim_20260930/pub_next_stage_20260930/tables/basin_attribute_screening.csv",
+      "sha256": "3b79f623acd18d9420beaaba1505889dc0623f56cf2f3c7ddd2395f2955845ac",
+      "mtime": "2026-09-30 07:45:57 UTC",
+      "bytes": 2108
+    }
+  ],
+  "n_variables": 15,
+  "min_q_value": 0.0753674632536746,
+  "n_surviving_fdr_005": 0,
+  "top_attribute": "arid",
+  "top_attribute_rho": 0.1197811661795717
+}

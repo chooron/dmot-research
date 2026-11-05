@@ -1,0 +1,12 @@
+{
+  "differing_paths": [],
+  "executed_scripts": [
+    "build_results_artifacts.py",
+    "build_evidence_packet.py",
+    "close_registry_m1_m2.py",
+    "finalize_registry_t1_t2.py"
+  ],
+  "inconsistent_files": 0,
+  "maximum_numeric_difference": "0",
+  "output_files": 69
+}

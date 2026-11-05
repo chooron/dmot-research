@@ -1,0 +1,24 @@
+{
+  "script": "si_01_cross_metric_overlap.py",
+  "approach": "(b) Loaded frozen verified artifacts from chapter4_robustness_supplement_20260925 and chapter4_final_closure_20260925",
+  "upstream_artifacts": [
+    {
+      "label": "rb2_cross_metric_overlap.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmark/analysis/chapter4_robustness_supplement_20260925/tables/rb2_cross_metric_overlap.csv",
+      "sha256": "8cf3d2f763847ec2658be5b4b01a6426e4e28143111252e737d1bbd145f90f19",
+      "mtime": "2026-09-24 08:20:52 UTC",
+      "bytes": 187
+    },
+    {
+      "label": "s2_supp_metrics_summary.json",
+      "path": "/home/jingxin/code/dmg-research/project/benchmark/analysis/chapter4_final_closure_20260925/tables/s2_supp_metrics_summary.json",
+      "sha256": "7c3f0346b371d7ea615e0d982b4750c95f9b7d990927e2e0e6a9d93b43e3e70a",
+      "mtime": "2026-09-24 10:17:03 UTC",
+      "bytes": 1743
+    }
+  ],
+  "dpl_logkge_top3_overlap": 0.2146892655367231,
+  "dpl_fhv_top3_overlap": 0.4325172630257375,
+  "ic_logkge_top3_overlap": 0.2310106716886377,
+  "ic_fhv_top3_overlap": 0.2994350282485876
+}

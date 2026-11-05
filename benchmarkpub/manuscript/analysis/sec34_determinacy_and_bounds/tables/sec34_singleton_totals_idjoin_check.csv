@@ -1,0 +1,4 @@
+condition,total_singletons_idjoin,total_singletons_existing,abs_diff
+IC,36,36,0
+OOB-dPL,63,63,0
+seen-dPL,47,47,0

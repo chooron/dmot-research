@@ -1,0 +1,14 @@
+original_estimand,new_estimand,disposition,expected_components,parsed_components,reason
+strict_winner_retention,,removed_declaration,,,No registry claim deleted unless non-R2 unreferenced claim exists
+singleton_basin_counts,,removed_declaration,,,No registry claim deleted unless non-R2 unreferenced claim exists
+equivalence_membership_overlap,composition_sharing_mechanism_four_number_comparison,mapped,4,4,
+conditionalized_upper_bound,conditionalized_upper_bound,mapped,4,4,
+displacement_oob_loss_three_aggregations,displacement_oob_loss_three_aggregations,mapped,9,9,All stored displacement definitions retained across the three aggregations; no definition selected. Within-model p and strict positive-count fields are not stored; fractions are preserved without inferring positive counts.
+model_fold_same_sign_180,model_fold_same_sign_180,mapped,1,1,
+oob_100_cover_member_list,oob_100_cover_member_list,mapped,1,1,
+optimal_solution_core_union,optimal_solution_core_union,mapped,18,18,
+penalty_effect_size_and_pairwise_adjusted_values,penalty_effect_size_and_pairwise_adjusted_values,mapped,2,2,
+residual_variance_share,residual_variance_share,mapped,1,1,
+single_model_attribute_negative_result,single_model_attribute_negative_result,mapped,3,3,
+size_matched_null_90_and_100,size_matched_null_90_and_100,mapped,60,60,
+top3_top5_exact_set_retention,top3_top5_exact_set_retention,mapped,2,2,

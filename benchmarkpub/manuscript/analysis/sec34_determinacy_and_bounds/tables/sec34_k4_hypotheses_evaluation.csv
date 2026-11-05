@@ -1,0 +1,16 @@
+condition,hypothesis,range_median,existing_reported_median,abs_diff_vs_existing,is_exact_match
+OOB-dPL,Hypothesis_A_Sb_aligned,0.040345,0.116300,0.075955,False
+OOB-dPL,Hypothesis_B_All36_models,0.519166,0.116300,0.402866,False
+OOB-dPL,Hypothesis_C_Top3_models,0.042108,0.116300,0.074192,False
+OOB-dPL,Hypothesis_D_Top5_models,0.067699,0.116300,0.048601,False
+OOB-dPL,Hypothesis_E_Sb_index_mismatch,0.116310,0.116300,0.000010,True
+seen-dPL,Hypothesis_A_Sb_aligned,0.042026,0.102700,0.060674,False
+seen-dPL,Hypothesis_B_All36_models,0.498195,0.102700,0.395495,False
+seen-dPL,Hypothesis_C_Top3_models,0.035434,0.102700,0.067266,False
+seen-dPL,Hypothesis_D_Top5_models,0.054867,0.102700,0.047833,False
+seen-dPL,Hypothesis_E_Sb_index_mismatch,0.102653,0.102700,0.000047,True
+IC,Hypothesis_A_Sb_aligned,0.054913,0.054900,0.000013,True
+IC,Hypothesis_B_All36_models,0.474104,0.054900,0.419204,False
+IC,Hypothesis_C_Top3_models,0.024657,0.054900,0.030243,False
+IC,Hypothesis_D_Top5_models,0.040178,0.054900,0.014722,False
+IC,Hypothesis_E_Sb_index_mismatch,0.054913,0.054900,0.000013,True

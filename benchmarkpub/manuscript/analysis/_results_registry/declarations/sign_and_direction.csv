@@ -1,0 +1,23 @@
+quantity_class,subtraction_order,better_direction,note
+kge_level,n/a,higher,
+cover_count / library_size,n/a,lower,
+transfer_penalty,seen_minus_heldout,lower,
+parsimony_penalty,ranking_member_minus_parsimonious_member,lower,
+rule_paired_difference,rule_minus_baseline,higher,
+constrained_set_paired_difference,constrained_minus_unconstrained,higher,
+diversity_set_paired_difference,diversity_minus_ranking,higher,
+regret_level,n/a,lower,
+regret_paired_difference,recommended_minus_fixed,lower,
+gset,n/a,higher,
+spearman / retention / coverage_fraction,n/a,higher,
+equivalence_set_size,n/a,none,
+parameter_displacement,n/a,lower,
+p_value / effect_size,n/a,none,
+bandwidth,n/a,none,
+variance_or_share,n/a,none,
+descriptive_count,n/a,none,
+categorical_identifier,n/a,none,
+coverage_paired_difference,basin_specific_minus_global,higher,Paired coverage difference as defined by the source column
+rank_correlation,n/a,none,Descriptive displacement/loss association; no optimization direction
+gain_sign_summary,n/a,none,Composite seed counts and maximum gain; maximum G alone has higher-is-better direction
+null_composite_summary,component_specific,none,"Stored row dictionaries combine cover counts, null summaries and test probabilities; no scalar ordering of the whole object"

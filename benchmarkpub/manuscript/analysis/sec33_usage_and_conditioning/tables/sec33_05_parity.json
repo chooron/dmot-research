@@ -1,0 +1,39 @@
+{
+  "script": "sec33_05_cluster_typology.py",
+  "approach": "(b) Loaded frozen verified artifacts from cluster_oob_recommendation_validation_20261001 and cluster_model_recommendation_20261001",
+  "upstream_artifacts": [
+    {
+      "label": "cluster_vs_global_summary.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/cluster_oob_recommendation_validation_20261001/tables/cluster_vs_global_summary.csv",
+      "sha256": "ebeb5753268e30cd547e6b1f242cd1ded64ca476af88d348c956ab7f524bde25",
+      "mtime": "2026-10-01 02:43:18 UTC",
+      "bytes": 1537
+    },
+    {
+      "label": "per_cluster_oob_validation.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/cluster_oob_recommendation_validation_20261001/tables/per_cluster_oob_validation.csv",
+      "sha256": "1422e82db99170d3b6d067aa9f4f591cc823f17cd636f3fb641a2b9826114b48",
+      "mtime": "2026-10-01 02:43:18 UTC",
+      "bytes": 3404
+    },
+    {
+      "label": "cluster_concentration_summary.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/cluster_model_recommendation_20261001/tables/cluster_concentration_summary.csv",
+      "sha256": "7230b1dd3a037deffd5b89825e8421e9f27363f1dc80f16baf8cf6859c1d497a",
+      "mtime": "2026-10-01 02:26:01 UTC",
+      "bytes": 6001
+    },
+    {
+      "label": "cluster_seen_oob_consistency.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/cluster_model_recommendation_20261001/tables/cluster_seen_oob_consistency.csv",
+      "sha256": "7b2abad56e510fd1660130251a49e5812a2aedc71769ce1404d8080b0b67448f",
+      "mtime": "2026-10-01 02:26:01 UTC",
+      "bytes": 2117
+    }
+  ],
+  "cluster_k3_coverage_diff": -0.0058,
+  "cluster_k5_coverage_diff": -0.0078,
+  "cluster_k5_regret_diff_mean": -0.004,
+  "cluster_k5_wilcoxon_p": 0.0369,
+  "n_clusters": 10
+}

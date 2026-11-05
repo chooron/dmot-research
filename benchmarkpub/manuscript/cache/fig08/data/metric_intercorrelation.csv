@@ -1,0 +1,4 @@
+,fold_instability,param_displacement_rms,total_displacement
+fold_instability,1.0,0.916602,0.907336
+param_displacement_rms,0.916602,1.0,0.928185
+total_displacement,0.907336,0.928185,1.0

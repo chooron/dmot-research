@@ -1,0 +1,3 @@
+metric,F3_models,SBS_model,G_set,G_set_lo95,G_set_hi95,verdict,beats_permutation,seeds_G_set_mean,seeds_ci_positive
+FHV,hbv96|mopex5|mopex4,hbv96,-0.041058,-0.233551,0.127731,NO,True,-0.012485,0
+logKGE,mopex2|mopex4|mopex3,mopex2,0.121029,-0.319254,0.565461,MARGINAL,False,0.193837,5

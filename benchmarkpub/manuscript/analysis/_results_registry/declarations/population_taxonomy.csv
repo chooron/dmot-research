@@ -1,0 +1,19 @@
+n_value,category,meaning
+6,group_size,逐流域类型的 N
+7,group_size,逐流域类型的 N
+10,analysis_unit_count,种子数
+17,group_size,逐流域类型的 N
+21,group_size,逐流域类型的 N
+36,analysis_unit_count,模型数
+42,group_size,逐流域类型的 N
+44,group_size,逐流域类型的 N
+45,comparison_count,两两比较对数
+46,group_size,逐流域类型的 N
+53,group_size,逐流域类型的 N
+79,group_size,逐流域类型的 N
+180,analysis_unit_count,model×fold 单元数
+200,group_size,逐流域类型的 N
+515,population,已匹配类型的流域数
+531,population,全域流域总数；覆盖阈值所需流域数
+19116,population,model×basin 单元总数
+EXPLANATORY_NOTE,declaration_exception,S3 数值例外：本分类表按定义列出 E5 的数值 N，由脚本从 E5 证据生成，非人工转录；此例外不扩展至口径或方向声明。

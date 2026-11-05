@@ -1,0 +1,37 @@
+model,source,scenario,median_order,state_error_monotone,in_pass_band,final_status,notes
+alpine1,core_suite,smooth_warm_positive,1.0203,True,True,PASS_WITH_CAVEAT,Supported with caveat per feasibility review; convergence still verified at first order.
+alpine2,core_suite,smooth_warm_positive,1.0159,True,True,PASS_WITH_CAVEAT,Supported with caveat per feasibility review; convergence still verified at first order.
+australia,core_suite,smooth_warm_positive,1.7115,True,False,FAIL_THRESHOLD_CROSSING,
+collie1,core_suite,smooth_warm_positive,16.6232,True,False,PASS_WITH_CAVEAT,"Errors fall to the float64 precision floor before a meaningful empirical order can be estimated; absolute errors are finite, monotone, and negligible."
+collie2,core_suite,smooth_warm_positive,16.6232,True,False,PASS_WITH_CAVEAT,"Errors fall to the float64 precision floor before a meaningful empirical order can be estimated; absolute errors are finite, monotone, and negligible."
+collie3,core_suite,smooth_warm_positive,1.0115,True,True,PASS_WITH_CAVEAT,First-order convergence is recovered after treating b as a dimensionless exponent rather than a rate parameter; the original failure was caused by coarse-level nonlinear threshold effects and a diagnostic rate-parameter misclassification.
+flexb,core_suite,smooth_warm_positive,1.0146,True,True,PASS,
+flexi,core_suite,smooth_warm_positive,1.0205,True,True,PASS,
+flexis,core_suite,smooth_warm_positive,1.0326,True,True,PASS_WITH_CAVEAT,Supported with caveat per feasibility review; convergence still verified at first order.
+gr4j,caveat_remediation,analytical_caveat,,False,False,ANALYTICAL_CAVEAT,gr4j uses closed-form tanh/power-law daily update (Perrin et al. 2003). There is no sub-daily ODE being discretised; Euler substep refinement does not converge to a continuous-time solution. Not remediable by scenario design.
+gsfb,gsfb_smooth_variant,smooth_tau_scaled,1.0937,True,True,PASS,gsfb_smooth renamed to gsfb (2026-06-25); all hard caps replaced with smooth_cap_flux; tau scaled by dt for first-order Euler convergence. Original non-smooth implementation preserved at models/core/archive/gsfb_original.py.
+hbv96,core_suite,smooth_warm_positive,1.015,False,True,FAIL_THRESHOLD_CROSSING,State error not monotone decreasing across substep levels (possible threshold/kink).
+hillslope,core_suite,smooth_warm_positive,1.0117,True,True,PASS,
+hymod,core_suite,smooth_warm_positive,1.1092,True,True,PASS,
+ihacres,core_suite,smooth_warm_positive,7.5866,True,False,PASS_WITH_CAVEAT,"Errors fall to the float64 precision floor before a meaningful empirical order can be estimated; absolute errors are finite, monotone, and negligible."
+modhydrolog,core_suite,smooth_warm_positive,1.4465,True,False,PASS_WITH_CAVEAT,"Coarse substeps cross sequential storage/capacity branches; the 8-to-16 substep local order is 1.0408 with monotone finite errors, confirming asymptotic first-order convergence."
+mopex1,core_suite,smooth_warm_positive,1.0208,True,True,PASS,
+mopex2,core_suite,smooth_warm_positive,1.7368,True,False,FAIL_THRESHOLD_CROSSING,
+mopex3,core_suite,smooth_warm_positive,1.3243,True,False,FAIL_THRESHOLD_CROSSING,
+mopex4,caveat_remediation,smooth_remediation,1.0156,True,True,PASS,Smooth scenario: T=15 °C >> tcrit=0 °C. Pure warm-rain regime; no snowfall/snowmelt threshold crossings. → Achieved first-order convergence (median p=1.016).
+mopex5,caveat_remediation,smooth_remediation,1.0156,True,True,PASS,Smooth scenario: T=15 °C >> tcrit=0 °C. Same warm-rain strategy as mopex4. → Achieved first-order convergence (median p=1.016).
+newzealand1,core_suite,smooth_warm_positive,1.0144,True,True,PASS,
+newzealand2,core_suite,smooth_warm_positive,1.0057,True,True,PASS,
+penman,core_suite,smooth_warm_positive,1.0159,True,True,PASS,
+plateau,core_suite,smooth_warm_positive,1.0028,True,True,PASS,
+simhyd,core_suite,smooth_warm_positive,1.0782,True,True,PASS,
+smar,core_suite,smooth_warm_positive,1.0057,True,True,PASS_WITH_CAVEAT,Supported with caveat per feasibility review; convergence still verified at first order.
+susannah1,core_suite,smooth_warm_positive,5.6688,True,False,PASS_WITH_CAVEAT,"Errors fall to the float64 precision floor before a meaningful empirical order can be estimated; absolute errors are finite, monotone, and negligible."
+susannah2,core_suite,smooth_warm_positive,0.939,True,True,PASS,
+tank,caveat_remediation,smooth_remediation,1.0061,True,True,PASS,"Smooth scenario: st=2000 mm, tiny rate coefficients. Storages remain well below all four interflow_8 thresholds. → Achieved first-order convergence (median p=1.006)."
+tcm,caveat_remediation,smooth_remediation,1.099,True,True,PASS,"Smooth scenario: rc=2000 mm, P≈0.3 mm/d. S1 << rc (saturation_1 inactive); S2 deficit ≈ 50 mm >> 0.01 mm (saturation_9 inactive). → Achieved first-order convergence (median p=1.099)."
+topmodel,core_suite,smooth_warm_positive,1.0035,True,True,PASS_WITH_CAVEAT,Supported with caveat per feasibility review; convergence still verified at first order.
+us1,core_suite,smooth_warm_positive,6.0797,True,False,PASS_WITH_CAVEAT,"Errors fall to the float64 precision floor before a meaningful empirical order can be estimated; absolute errors are finite, monotone, and negligible."
+vic,core_suite,smooth_warm_positive,4.9693,True,False,FAIL_THRESHOLD_CROSSING,
+wetland,core_suite,smooth_warm_positive,1.015,True,True,PASS,
+xinanjiang,core_suite,smooth_warm_positive,1.1238,True,True,PASS,

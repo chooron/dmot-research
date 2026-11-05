@@ -1,0 +1,15 @@
+family,manuscript_primary,secondary_retained,note
+global_seen_oob_rank_spearman,same_pipeline,canonical,
+equivalence_and_cover,one_year_waterblock_q05,three_year_nonoverlapping_block,
+uncertainty_bandwidth,one_year_waterblock,three_year_nonoverlapping_block,jackknife 为 SUPERSEDED，不得引用
+transfer_penalty_delta_kge,same_pipeline_seen_minus_heldout,cross_pipeline,
+winner_retention,same_pipeline,cross_pipeline,
+top5_set_overlap,same_pipeline,cross_pipeline,
+variance_decomposition,thirtysix_model_delta_kge_pub,none,八模型 dPL−IC 版属另一稿，本稿任何论断不得引用
+gset_heldout,A2d,A1b,
+parsimony_penalty,id_joined_ranking_minus_parsimonious,none,旧值 SUPERSEDED
+equivalence_set_dispersion,id_joined,none,旧值 SUPERSEDED
+rule_c_k,all_reported,none,阶梯量，无单一 primary
+fixed_global_ensemble_k,k2_as_operating_point,k_sweep,
+paired_difference_baseline,relative_to_B_k2,relative_to_A,两组并列报出
+paired_statistic,paired_difference,none,边际中位数之差不得用作配对效应

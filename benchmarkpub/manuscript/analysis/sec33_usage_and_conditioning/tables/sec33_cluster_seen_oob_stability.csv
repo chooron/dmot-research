@@ -1,0 +1,12 @@
+cluster,n_basins,top3_spearman_r,top3_spearman_p,top3_pearson_r,top3_seen_models,top3_oob_models,top3_overlap_count,top3_jaccard,top5_spearman_r,top5_spearman_p,top5_pearson_r,top5_seen_models,top5_oob_models,top5_overlap_count,top5_jaccard,stability_verdict
+0,200,0.871000,0.000000,0.972400,hbv96;mopex5;gr4j,hbv96;mopex5;mopex4,2.000000,0.500000,0.962500,0.000000,0.978900,hbv96;mopex5;mopex3;mopex4;mopex2,hbv96;mopex5;mopex3;mopex4;mopex2,5.000000,1.000000,HIGH
+1,79,0.823900,0.000000,0.890500,hbv96;mopex5;mopex4,hbv96;mopex3;mopex2,1.000000,0.200000,0.824900,0.000000,0.952300,hbv96;mopex5;mopex3;mopex4;mopex2,hbv96;mopex5;mopex4;mopex2;mopex3,5.000000,1.000000,MODERATE
+2,6,0.801800,0.000000,0.889800,mopex4;hbv96;mopex5,hbv96;mopex4;mopex5,3.000000,1.000000,0.894200,0.000000,0.911100,hbv96;mopex4;mopex5;mopex2;mopex3,mopex4;hbv96;mopex5;mopex2;alpine2,4.000000,0.666700,HIGH
+3,42,0.808400,0.000000,0.935900,hbv96;mopex2;mopex4,mopex3;mopex4;hbv96,2.000000,0.500000,0.695400,0.000003,0.956200,hbv96;mopex3;mopex2;mopex4;mopex5,mopex3;hbv96;mopex4;mopex2;mopex5,5.000000,1.000000,HIGH
+4,7,0.674900,0.000006,0.877000,hbv96;alpine2;mopex5,hbv96;mopex2;mopex5,2.000000,0.500000,0.702800,0.000002,0.883600,hbv96;mopex4;mopex5;mopex3;mopex2,mopex5;hbv96;mopex3;alpine2;mopex2,4.000000,0.666700,MODERATE
+5,17,0.649000,0.000019,0.584600,hbv96;alpine2;gr4j,alpine1;mopex5;mopex3,0.000000,0.000000,0.718400,0.000001,0.711200,alpine2;hbv96;mopex4;mopex2;susannah1,mopex5;mopex2;gr4j;alpine1;mopex3,1.000000,0.111100,MODERATE
+6,21,0.699000,0.000002,0.728100,hbv96;gr4j;mopex5,alpine2;gr4j;hbv96,2.000000,0.500000,0.607500,0.000085,0.691700,hbv96;mopex5;mopex3;gr4j;mopex4,alpine2;hbv96;alpine1;mopex2;mopex3,2.000000,0.250000,MODERATE
+7,53,0.584400,0.000182,0.779300,hbv96;mopex5;mopex3,hbv96;mopex5;mopex4,2.000000,0.500000,0.772300,0.000000,0.872100,hbv96;mopex5;mopex3;mopex2;mopex4,mopex5;mopex3;mopex2;mopex4;alpine2,4.000000,0.666700,MODERATE
+8,44,0.460700,0.004688,0.634400,hbv96;gr4j;simhyd,hbv96;ihacres;mopex3,1.000000,0.200000,0.640800,0.000026,0.716300,hbv96;gr4j;simhyd;plateau;mopex5,hbv96;ihacres;mopex5;plateau;xinanjiang,3.000000,0.428600,MODERATE
+9,46,0.732000,0.000000,0.918700,hbv96;mopex5;mopex4,hbv96;mopex5;mopex4,3.000000,1.000000,0.824400,0.000000,0.950800,hbv96;mopex5;mopex3;mopex4;mopex2,hbv96;mopex5;mopex3;mopex2;mopex4,5.000000,1.000000,MODERATE
+cluster_mean,515,0.710500,,0.821100,-,-,1.800000,0.490000,0.764300,,0.862400,-,-,3.800000,0.679000,HIGH

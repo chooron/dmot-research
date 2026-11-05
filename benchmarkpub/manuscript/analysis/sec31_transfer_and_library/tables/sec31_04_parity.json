@@ -1,0 +1,70 @@
+{
+  "script": "sec31_04_equivalence_and_coverage.py",
+  "approach": "(b) Loaded frozen verified artifacts from equiv_cover_t1t2_20261003",
+  "upstream_artifacts": [
+    {
+      "label": "t1_size_distribution.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_size_distribution.csv",
+      "sha256": "82bf166d315b9bb406a64859d2a972f5dfa59f0b826448e70a26eecac64962fa",
+      "mtime": "2026-11-05 01:56:57 UTC",
+      "bytes": 236
+    },
+    {
+      "label": "t1_equivalence_sets.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_equivalence_sets.csv",
+      "sha256": "7789c489491aebab329645aa413104a1eea1c4a1fb5d3db25692a4eae1beacf9",
+      "mtime": "2026-11-05 01:56:57 UTC",
+      "bytes": 182897
+    },
+    {
+      "label": "t1_coverage_curve.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_coverage_curve.csv",
+      "sha256": "b61f2310d719a9c246253c89e2abe67617d1425981325a4c5372b8a5f4448a21",
+      "mtime": "2026-11-05 01:56:57 UTC",
+      "bytes": 2752
+    },
+    {
+      "label": "t1_greedy_curve.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_greedy_curve.csv",
+      "sha256": "4fb5c684de049c0f57c2dedf1f07bb2d8bfb44d6a0db7aaaf7518980c6cfd72b",
+      "mtime": "2026-11-05 01:56:57 UTC",
+      "bytes": 1750
+    },
+    {
+      "label": "t1_min_cover.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_min_cover.csv",
+      "sha256": "c609a22458b6627d928a5d0be17870cc586a85c6d9853ff6d0324808c7817db5",
+      "mtime": "2026-11-05 01:56:57 UTC",
+      "bytes": 899
+    },
+    {
+      "label": "t1_model_coverage.csv",
+      "path": "/home/jingxin/code/dmg-research/project/benchmarkpub/analysis/equiv_cover_t1t2_20261003/tables/t1_model_coverage.csv",
+      "sha256": "e299d46f118156e5b5175190d98163ec92514024fc21cd5e186b5003356266c5",
+      "mtime": "2026-11-05 01:56:57 UTC",
+      "bytes": 4050
+    }
+  ],
+  "n_conditions": 3,
+  "targets_evaluated": [
+    0.9,
+    0.95,
+    1.0,
+    0.9,
+    0.95,
+    1.0,
+    0.9,
+    0.95,
+    1.0
+  ],
+  "cover95_exact": {
+    "IC": 4,
+    "seen-dPL": 6,
+    "OOB-dPL": 11
+  },
+  "cover100_exact": {
+    "IC": 9,
+    "seen-dPL": 14,
+    "OOB-dPL": 19
+  }
+}

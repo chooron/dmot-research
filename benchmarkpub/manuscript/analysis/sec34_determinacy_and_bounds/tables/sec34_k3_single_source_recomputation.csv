@@ -1,0 +1,4 @@
+condition,recomputed_bandwidth_median,existing_bandwidth_median,bandwidth_abs_diff,recomputed_range_median,existing_range_median,range_abs_diff,recomputed_violations_count,recomputed_max_excess_range_minus_delta,mathematical_constraint_satisfied
+IC,0.062335,0.062300,0.000035,0.054913,0.054900,0.000013,0,-0.000003,True
+seen-dPL,0.052384,0.052400,0.000016,0.042026,0.102700,0.060674,0,-0.000006,True
+OOB-dPL,0.057715,0.057700,0.000015,0.040345,0.116300,0.075955,0,-0.000043,True

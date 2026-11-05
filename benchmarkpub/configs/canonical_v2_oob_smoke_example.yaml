@@ -1,0 +1,12 @@
+# Merge this block into one canonical_v2 job config for engineering smoke only.
+basin_split:
+  enabled: true
+  manifest: project/benchmarkpub/configs/canonical_v2_oob_5fold_split.yaml
+  fold: 0
+  validation_fold: 1
+  seed: 20260902
+  # Optional deterministic smoke limits; omit for the full fold role sets.
+  smoke_limits:
+    optimization: 318
+    internal_validation: 2
+    outer_oob: 2

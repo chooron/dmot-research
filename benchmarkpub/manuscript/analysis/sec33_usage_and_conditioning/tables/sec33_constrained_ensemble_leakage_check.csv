@@ -1,0 +1,6 @@
+fold,n_training_basins,n_target_basins,target_fold_in_construction,selection_statistic
+0,424,107,NO,training-fold median OOB KGE
+1,425,106,NO,training-fold median OOB KGE
+2,425,106,NO,training-fold median OOB KGE
+3,425,106,NO,training-fold median OOB KGE
+4,425,106,NO,training-fold median OOB KGE

@@ -1,0 +1,4 @@
+condition,n_basins_total,n_violations_penalty_gt_delta,violation_fraction,ratio_penalty_over_delta_median,ratio_penalty_over_delta_q25,ratio_penalty_over_delta_q75,ratio_penalty_over_delta_p90,ratio_penalty_over_delta_max
+IC,531,0,0.000000,0.038623,-0.090886,0.454021,0.781189,0.999046
+seen-dPL,531,195,0.367232,0.533408,0.000000,1.693444,4.639632,55.405461
+OOB-dPL,531,159,0.299435,0.241329,-0.195890,1.281720,3.836313,35.615496

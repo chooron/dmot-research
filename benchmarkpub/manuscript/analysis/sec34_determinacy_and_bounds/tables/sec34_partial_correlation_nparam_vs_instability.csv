@@ -1,0 +1,4 @@
+instability_metric,metric_description,n_models,spearman_rho_uncontrolled,p_permutation_uncontrolled,partial_spearman_rho_control_seen_kge,p_permutation_control_seen_kge,partial_spearman_rho_control_oob_kge,p_permutation_control_oob_kge,n_permutations,seed
+param_fold_instability_median,Fold-to-fold variability (per-parameter RMS),36,0.521840,0.001500,0.473660,0.004500,0.471961,0.004600,10000,20260930
+param_displacement_median,Seen->OOB displacement (per-parameter RMS),36,0.434953,0.007599,0.393002,0.018398,0.395609,0.017998,10000,20260930
+param_displacement_euclid_median,Seen->OOB displacement (total Euclidean),36,0.667690,0.000200,0.629781,0.000200,0.628480,0.000100,10000,20260930

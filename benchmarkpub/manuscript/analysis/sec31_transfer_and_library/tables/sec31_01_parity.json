@@ -1,0 +1,10 @@
+{
+  "script": "sec31_01_delta_kge.py",
+  "approach": "(a) Recomputed from pub_same_pipeline_model_basin.csv",
+  "pooled_median_recomputed": 0.04339430643989299,
+  "pooled_median_frozen": 0.04339430643989302,
+  "pooled_median_abs_diff": 2.7755575615628914e-17,
+  "model_level_max_abs_diff": 1.1796119636642288e-16,
+  "n_models_positive": 36,
+  "n_fold_cells_positive": 180
+}

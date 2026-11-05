@@ -1,0 +1,9 @@
+{
+  "script": "sec32_05_process_crosstabs.py",
+  "approach": "(a) Recomputed from sec32 tables",
+  "n_subsets_evaluated": 4,
+  "full_36_snow_count": 8,
+  "oob21_snow_count": 6,
+  "top3_13_snow_count": 5,
+  "top5_9_snow_count": 3
+}

@@ -1,0 +1,4 @@
+condition,uncertainty_convention,block_length_years,n_blocks,n_replicates,seed,n_basins,median_size,q25_size,q75_size,mean_size,min_size,max_size,n_singleton
+IC,multiyear_block_bootstrap_L3,3,5,1000,20260925,531,6.000000,4.000000,15.000000,10.107345,1,36,49
+seen-dPL,multiyear_block_bootstrap_L3,3,5,1000,20260925,531,4.000000,2.000000,7.000000,5.527307,1,34,68
+OOB-dPL,multiyear_block_bootstrap_L3,3,5,1000,20260925,531,4.000000,2.000000,6.000000,4.892655,1,35,77

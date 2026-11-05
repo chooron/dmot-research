@@ -1,0 +1,14 @@
+rule_label,rule_family,k,seed_scope,kge_median,kge_q25,kge_q75,kge_mean
+Rule A (k=1 global single best),A,1,deterministic,0.663477,0.501622,0.773778,0.586491
+Rule B (k=1 fixed global ensemble),B,1,deterministic,0.663477,0.501622,0.773778,0.586491
+Rule B (k=2 fixed global ensemble),B,2,deterministic,0.683008,0.539187,0.780315,0.601457
+Rule B (k=3 fixed global ensemble),B,3,deterministic,0.677403,0.530109,0.769451,0.597362
+Rule B (k=4 fixed global ensemble),B,4,deterministic,0.669573,0.525684,0.762939,0.588221
+Rule B (k=5 fixed global ensemble),B,5,deterministic,0.666491,0.508009,0.758089,0.584437
+Rule B (k=7 fixed global ensemble),B,7,deterministic,0.657740,0.510679,0.758046,0.589245
+Rule B (k=10 fixed global ensemble),B,10,deterministic,0.650055,0.490675,0.748671,0.582044
+Rule C (k=2 attribute-conditioned ensemble),C,2,10-seed mean,0.680930,0.527656,0.777050,0.594794
+Rule C (k=3 attribute-conditioned ensemble),C,3,10-seed mean,0.679525,0.525986,0.774148,0.598310
+Rule C (k=5 attribute-conditioned ensemble),C,5,10-seed mean,0.672034,0.528210,0.768195,0.596378
+Rule D (A2d k=3 candidate set selection),D,3,10-seed mean,0.711534,0.575023,0.783640,0.635034
+Rule E (36-model upper bound oracle),E,36,deterministic,0.746273,0.643456,0.802359,0.695407

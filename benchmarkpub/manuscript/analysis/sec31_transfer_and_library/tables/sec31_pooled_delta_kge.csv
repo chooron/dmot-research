@@ -1,0 +1,2 @@
+metric,n_cells,n_basins,n_models,median,median_ci95_lo,median_ci95_hi,mean,mean_ci95_lo,mean_ci95_hi,q25,q75,frac_positive
+pooled_delta_kge_pub,19116,531,36,0.043394,0.037455,0.050364,0.096046,0.082014,0.110784,-0.003003,0.136232,0.728918

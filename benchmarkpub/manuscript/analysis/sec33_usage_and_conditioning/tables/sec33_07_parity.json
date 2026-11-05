@@ -1,0 +1,16 @@
+{
+  "script": "sec33_07_diversity_sensitivity_v5.py",
+  "approach": "(a) Recomputed from raw Qsim and model structural attributes on training folds",
+  "k_values": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    10
+  ],
+  "n_methods": 2,
+  "n_summary_rows": 12,
+  "struct_diff_k3_mean": -0.06589158740636546,
+  "behav_diff_k3_mean": -0.06670633485414734
+}

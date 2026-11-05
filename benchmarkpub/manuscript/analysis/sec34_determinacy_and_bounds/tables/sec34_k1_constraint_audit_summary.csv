@@ -1,0 +1,4 @@
+condition,n_basins_total,n_violations,violation_fraction,inequality_holds_globally,ratio_range_over_delta_median,ratio_range_over_delta_q25,ratio_range_over_delta_q75,ratio_range_over_delta_p90,ratio_range_over_delta_max
+IC,531,0,0.000000,True,0.910674,0.721047,0.964225,0.988441,0.999983
+seen-dPL,531,330,0.621469,False,1.541200,0.812058,3.311043,7.389549,59.871763
+OOB-dPL,531,331,0.623352,False,1.764843,0.733475,3.776907,6.997446,37.281434

@@ -1,0 +1,2 @@
+n_basins_total,n_matched,n_unmatched,n_types,unmatched_basin_ids,type_counts,grouping_source
+531,515,16,10,02196000|04015330|04213000|06221400|06224000|07261000|10336645|10336660|11143000|11482500|12040500|12041200|12082500|12092000|12175500|14137000,0:200|1:79|2:6|3:42|4:7|5:17|6:21|7:53|8:44|9:46,"data/gauge_cluster.csv (external published classification), used as a grouping factor only"

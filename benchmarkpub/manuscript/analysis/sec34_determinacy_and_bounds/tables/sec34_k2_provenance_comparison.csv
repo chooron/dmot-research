@@ -1,0 +1,9 @@
+dimension,uncertainty_bandwidth_Delta,equivalence_dispersion_range
+source_table,sec31_transfer_and_library/tables/sec31_uncertainty_bandwidth_per_basin.csv,sec34_determinacy_and_bounds/tables/sec34_equivalence_set_dispersion_per_basin.csv
+generating_script,sec31_transfer_and_library/scripts/sec31_09_uncertainty_bandwidth_comparison_c2.py,sec34_determinacy_and_bounds/scripts/sec34_09_equivalence_dispersion_c4.py
+q05_definition,"5th percentile of {max_m KGE_{m,b}(r)} across 1000 water-year block draws",Inherited from t1_equivalence_sets.csv (same 5th percentile cutoff)
+resampling_protocol,"Water-year block bootstrap (L=1 year, 15 blocks, 1000 draws, seed 20260925)","Water-year block bootstrap (L=1 year, 15 blocks, 1000 draws, seed 20260925)"
+basin_order_and_indexing,Sorted basin order matching stats_cube and Qsim arrays (bi[basin_id]),"Unsorted canonical_ids() order used to index sorted performance matrices mat[b_idx, :]"
+basin_alignment_consequence,Consistent: best_point_kge and q05 belong to the same basin (531/531),Misaligned: S_b from basin A evaluated on KGEs of basin B for 439/531 basins in seen-dPL/OOB-dPL
+n_basins_evaluated,531,531
+n_basins_excluded,0,0

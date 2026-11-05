@@ -1,0 +1,4 @@
+condition,id_joined_rows,old_table_display_precision_decimals,nonidentical_rows_at_stored_precision,max_absolute_difference_vs_old_rounded_value,legacy_alignment_status,old_table_treatment
+IC,531,6,0,4.999711962355713e-07,FAIL_MISMATCH,SUPERSEDED_FOR_ADJUDICATION;SOURCE_UNMODIFIED
+seen-dPL,531,6,0,4.996565656639751e-07,FAIL_MISMATCH,SUPERSEDED_FOR_ADJUDICATION;SOURCE_UNMODIFIED
+OOB-dPL,531,6,439,0.358354949807173,FAIL_MISMATCH,SUPERSEDED_FOR_ADJUDICATION;SOURCE_UNMODIFIED
