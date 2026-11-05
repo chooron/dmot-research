@@ -1,0 +1,48 @@
+entry_type,role,model,path,exists,size_bytes,sha256,note
+INPUT,dpl_root,,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831,False,,,canonical dPL v2 result root; seed=42
+INPUT,dpl_manifest,,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/canonical_manifest.yaml,True,17393,8ad6a9ca693c625a21be3800c58c13320183bfe632a9944808de63a8086fb429,36-model canonical manifest
+INPUT,ic_root,,/home/jingxin/code/dmg-research/project/benchmark/results/ic_dpl_aligned_full300_20260819_final,False,,,frozen IC root
+INPUT,ic_status,,/home/jingxin/code/dmg-research/project/benchmark/results/ic_dpl_aligned_full300_20260819_final/status_summary.json,True,10783,0d62f7d2741ea5325ba27cc3331917c208b6e4254398082c55e0468e7a18808a,IC completion/generation status
+INPUT,ic_aligned_300,,/home/jingxin/code/dmg-research/project/benchmark/results/ic_gen300_aligned_all36_20260831/by_basin,False,,,stored IC TEST tables for generation-300 models
+INPUT,ic_aligned_simhyd_280,,/home/jingxin/code/dmg-research/project/benchmark/results/ic_gen280_aligned_simhyd_20260831/by_basin/simhyd.csv,True,11721,f7980d7813325b9889e6effb2b68975f4d3486ef4b77dd907a49fa5685eaae82,accepted simhyd generation-280 IC TEST table
+INPUT,caravan_attributes,,/home/jingxin/code/dmg-research_replay_forensics/data_remote_contract/caravan_671_attributes.npy,True,188008,686366653e5cbcac00ac24ecb20b710b4940ccf73fe1957f27f7da1969dfd825,recovered canonical Caravan matrix
+INPUT,gage_ids,,/home/jingxin/code/dmg-research/data/gage_id.npy,True,5496,81117b75abf870fbc9195a17d663307dba482621b4d81493ddeb282c437a8144,canonical Caravan reference row IDs
+INPUT,canonical_basin_ids,,/home/jingxin/code/dmg-research/data/531sub_id.txt,True,4882,140dd33776049b3c970a2fab0568c36d7a8f72ab12d45521040aef91de68b444,canonical 531-basin order
+INPUT,vic_dynamic_doy_result,,/home/jingxin/code/dmg-research/project/benchmark/results/ic_vic_full300_dynamic_doy_20260901,False,,,new VIC dynamic-DOY result/provenance
+MODEL_INPUT,pairing,alpine1,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/alpine1/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,alpine2,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/alpine2/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,australia,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/australia/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,collie1,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/collie1/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,collie2,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/collie2/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,collie3,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/collie3/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,flexb,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/flexb/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,flexi,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/flexi/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,flexis,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/flexis/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,gr4j,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/gr4j/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,gsfb,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/gsfb/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,hbv96,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/hbv96/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,hillslope,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/hillslope/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,hymod,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/hymod/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,ihacres,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/ihacres/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,modhydrolog,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/modhydrolog/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,mopex1,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/mopex1/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,mopex2,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/mopex2/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,mopex3,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/mopex3/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,mopex4,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/mopex4/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,mopex5,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/mopex5/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,newzealand1,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/newzealand1/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,newzealand2,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/newzealand2/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,penman,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/penman/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,plateau,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/plateau/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,simhyd,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/simhyd/best.pt,True,,,IC generation 280; strict_full300=False
+MODEL_INPUT,pairing,smar,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/smar/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,susannah1,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/susannah1/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,susannah2,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/susannah2/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,tank,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/tank/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,tcm,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/tcm/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,topmodel,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/topmodel/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,us1,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/us1/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,vic,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/vic/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,wetland,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/wetland/best.pt,True,,,IC generation 300; strict_full300=True
+MODEL_INPUT,pairing,xinanjiang,/home/jingxin/code/dmg-research/project/benchmark/results/dpl_canonical_v2_20260831/runs/xinanjiang/best.pt,True,,,IC generation 300; strict_full300=True
+ATTRIBUTE_CONTRACT,normalization,,/home/jingxin/code/dmg-research_replay_forensics/data_remote_contract/caravan_671_attributes.npy,True,188008,686366653e5cbcac00ac24ecb20b710b4940ccf73fe1957f27f7da1969dfd825,"nan_to_num; log columns 11,23,34 using dataset minimum shift; zscore over selected canonical 531 rows; std + 1e-6"

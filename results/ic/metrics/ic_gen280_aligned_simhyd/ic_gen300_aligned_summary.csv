@@ -1,0 +1,2 @@
+model,generation,starts,n_basins,n_invalid,median_kge,mean_kge,ckpt_train_kge_median,ckpt_source
+simhyd,280,10,531,0,0.6262385302559567,0.5547486316828751,0.7537208458149185,project/benchmark/results/ic_dpl_aligned_full300_20260819_final/checkpoints/ic_dpl_aligned_full300_20260819/simhyd

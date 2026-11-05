@@ -36,6 +36,8 @@ dmot-research/
 │   ├── src/benchmarkdev/# Water balance observers, substep scaling engine
 │   ├── config/          # Verification tolerances, seeds, evaluation windows
 │   └── tests/           # 36-model parity and conservation contract tests
+├── results/             # IC, dPL, OOB formal evaluation metrics & registry
+├── releases/            # Publication figures and release metadata
 ├── data/                # Symbolic links to read-only benchmark datasets
 ├── docs/                # Mathematical specifications, MARRMoT differences, audits
 ├── examples/            # Minimal forward/autograd smoke examples

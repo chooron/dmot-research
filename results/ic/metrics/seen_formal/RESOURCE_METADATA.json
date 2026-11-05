@@ -1,0 +1,15 @@
+{
+  "MKL_NUM_THREADS": "1",
+  "OMP_NUM_THREADS": "1",
+  "OPENBLAS_NUM_THREADS": "1",
+  "atlas_rows": 18970,
+  "basin_paired_rows": 19116,
+  "checkpoint_write_attempted": false,
+  "gpu_used": false,
+  "label": "SEEN_BASIN_DESCRIPTIVE",
+  "multiprocessing": false,
+  "parameter_estimate_rows": 287802,
+  "peak_rss_mib": 673.6,
+  "runtime_seconds": 5.012,
+  "training_started": false
+}
