@@ -2,9 +2,6 @@
 
 `dmot-research` is a standalone scientific research codebase consolidating **dMoT** (differentiable Modeling of Topography / differentiable rainfall-runoff modeling in PyTorch), Python implementations of **36 MARRMoT** conceptual model variants, and formal benchmark/publication pipelines.
 
-> **Status: Internal Research Workspace.**
-> This repository contains scientific code, formal verification tests, and publication analysis pipelines. Public distribution / Zenodo deposit remains **NO-GO** pending copyright holder confirmation and license reconciliation (see `RIGHTS_REVIEW.md` and `docs/release_readiness.md`).
-
 ---
 
 ## Repository Structure
